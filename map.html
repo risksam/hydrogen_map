@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b37349a29a1cccd337d77d781017b18c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b37349a29a1cccd337d77d781017b18c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b37349a29a1cccd337d77d781017b18c = L.map(
+                "map_b37349a29a1cccd337d77d781017b18c",
+                {
+                    center: [-25.2744, 133.7751],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f6cac943fe9e3f2dc3d40d4d185d070 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+            var circle_marker_5cfd17bd2d3a983e6e490d865bc08573 = L.circleMarker(
+                [-35.324669, 149.158664],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_622e4820ae30f07adeef77c41a1ea287 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f7ca07881df26cff826e88dbd2ca963b = $(`<div id="html_f7ca07881df26cff826e88dbd2ca963b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ACT Government, Neoen, ActewAGL, Hyundai, sgfleet<br><b>Electrolyser Size:</b> 0.075 MW<br><b>Expected Start Date:</b> Operations commenced March 2021<br><b>Reference:</b> <a href='https://www.actewagl.com.au/beyond-energy/a-green-capital/zero-emission-transport' target='_blank'>Link</a></div></div>`)[0];
+                popup_622e4820ae30f07adeef77c41a1ea287.setContent(html_f7ca07881df26cff826e88dbd2ca963b);
+            
+        
+
+        circle_marker_5cfd17bd2d3a983e6e490d865bc08573.bindPopup(popup_622e4820ae30f07adeef77c41a1ea287)
+        ;
+
+        
+    
+    
+            var circle_marker_39487cf4c33f85450a1d6c13f5b1754b = L.circleMarker(
+                [-35.326917, 149.157905],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_922ad9ad07fc62b091b81e0bc442109a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f222e0667e81a3cfb92fb745efdd6a25 = $(`<div id="html_f222e0667e81a3cfb92fb745efdd6a25" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Evoenergy, Canberra Institute of Technology (CIT), Australian National University (ANU)<br><b>Electrolyser Size:</b> 0.00125 MW<br><b>Expected Start Date:</b> Operations commenced December 2018<br><b>Reference:</b> <a href='https://www.evoenergy.com.au/emerging-technology/hydrogen-test-facility' target='_blank'>Link</a></div></div>`)[0];
+                popup_922ad9ad07fc62b091b81e0bc442109a.setContent(html_f222e0667e81a3cfb92fb745efdd6a25);
+            
+        
+
+        circle_marker_39487cf4c33f85450a1d6c13f5b1754b.bindPopup(popup_922ad9ad07fc62b091b81e0bc442109a)
+        ;
+
+        
+    
+    
+            var circle_marker_835355cddcb3c5040e162b0344c104ba = L.circleMarker(
+                [-29.465833, 149.833889],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_8bca42341be5ec1e17b0761df8085186 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2a6ac0c29c7eacea8782782b8063b388 = $(`<div id="html_2a6ac0c29c7eacea8782782b8063b388" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Hiringa Energy (Operator), Sundown Pastoral Company<br><b>Electrolyser Size:</b> 12 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.goodearthcotton.com/media/gegha/' target='_blank'>Link</a></div></div>`)[0];
+                popup_8bca42341be5ec1e17b0761df8085186.setContent(html_2a6ac0c29c7eacea8782782b8063b388);
+            
+        
+
+        circle_marker_835355cddcb3c5040e162b0344c104ba.bindPopup(popup_8bca42341be5ec1e17b0761df8085186)
+        ;
+
+        
+    
+    
+            var circle_marker_428ec325230025a5b55ce36efeebe0f0 = L.circleMarker(
+                [-32.371944, 150.977222],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_e868b133f00ad723a22ab83a4c26a3c5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bda349cb8d0f5842fffbe4e48d04ad9f = $(`<div id="html_bda349cb8d0f5842fffbe4e48d04ad9f" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> AGL Energy, Fortescue Future Industries<br><b>Electrolyser Size:</b> 150-2,000 MW<br><b>Expected Start Date:</b> Feasibility study is expected to be completed by end 2022<br><b>Reference:</b> <a href='https://www.agl.com.au/about-agl/media-centre/asx-and-media-releases/2022/august/agl-and-fortescue-future-industries--green-hydrogen-feasibility-' target='_blank'>Link</a></div></div>`)[0];
+                popup_e868b133f00ad723a22ab83a4c26a3c5.setContent(html_bda349cb8d0f5842fffbe4e48d04ad9f);
+            
+        
+
+        circle_marker_428ec325230025a5b55ce36efeebe0f0.bindPopup(popup_e868b133f00ad723a22ab83a4c26a3c5)
+        ;
+
+        
+    
+    
+            var circle_marker_0bfbe10270c016eeb6b6df21987786af = L.circleMarker(
+                [-32.738609, 151.548587],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_eb9fe655e4ee1ee33bc447a302322669 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0462cd9441066132d28c3e2d3391b9c9 = $(`<div id="html_0462cd9441066132d28c3e2d3391b9c9" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> The New South Wales Government will be facilitating discussions among stakeholders to progress the project<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://minister.infrastructure.gov.au/c-king/media-release/honouring-our-commitments-regional-australia' target='_blank'>Link</a></div></div>`)[0];
+                popup_eb9fe655e4ee1ee33bc447a302322669.setContent(html_0462cd9441066132d28c3e2d3391b9c9);
+            
+        
+
+        circle_marker_0bfbe10270c016eeb6b6df21987786af.bindPopup(popup_eb9fe655e4ee1ee33bc447a302322669)
+        ;
+
+        
+    
+    
+            var circle_marker_130674630ef345b01763f3c056ad58c9 = L.circleMarker(
+                [-32.916663, 151.749997],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_f166f327f444e8e51691ac3935f66b1b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f04e91129f3c1b9aa53cc9d109a6f544 = $(`<div id="html_f04e91129f3c1b9aa53cc9d109a6f544" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Origin Energy, Orica<br><b>Electrolyser Size:</b> 55 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.orica.com/news-media/2022/orica-and-origin-to-partner-on-hunter-valley-hydrogen-hub#.YnW5FodBzIU' target='_blank'>Link</a></div></div>`)[0];
+                popup_f166f327f444e8e51691ac3935f66b1b.setContent(html_f04e91129f3c1b9aa53cc9d109a6f544);
+            
+        
+
+        circle_marker_130674630ef345b01763f3c056ad58c9.bindPopup(popup_f166f327f444e8e51691ac3935f66b1b)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae4a26a9f1126ebd3f9242d723f3d14 = L.circleMarker(
+                [-34.4735, 150.88685],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_8895038efa4c529db25d84b81ee56c30 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c4a242d3217fb3269854d2dfd7504acb = $(`<div id="html_c4a242d3217fb3269854d2dfd7504acb" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> BOC Limited<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> 2025<br><b>Reference:</b> <a href='https://www.energy.nsw.gov.au/business-and-industry/programs-grants-and-schemes/hydrogen-hubs-nsw' target='_blank'>Link</a></div></div>`)[0];
+                popup_8895038efa4c529db25d84b81ee56c30.setContent(html_c4a242d3217fb3269854d2dfd7504acb);
+            
+        
+
+        circle_marker_2ae4a26a9f1126ebd3f9242d723f3d14.bindPopup(popup_8895038efa4c529db25d84b81ee56c30)
+        ;
+
+        
+    
+    
+            var circle_marker_326152b1ee38280ce996cd217a7da54f = L.circleMarker(
+                [-30.742514, 150.717868],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_13755a552e1801c51f1881c3ec0f8638 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_67ac6354c7dca78a2bddbbf189fe7401 = $(`<div id="html_67ac6354c7dca78a2bddbbf189fe7401" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Manilla Community Renewable Energy Inc., Providence Asset Group<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://communityrenewable.com.au/project/manilla-solar-project/' target='_blank'>Link</a></div></div>`)[0];
+                popup_13755a552e1801c51f1881c3ec0f8638.setContent(html_67ac6354c7dca78a2bddbbf189fe7401);
+            
+        
+
+        circle_marker_326152b1ee38280ce996cd217a7da54f.bindPopup(popup_13755a552e1801c51f1881c3ec0f8638)
+        ;
+
+        
+    
+    
+            var circle_marker_dab8dec716a5263a086c41bca6a20b9a = L.circleMarker(
+                [-34.468155, 150.89124],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ab8c882d9f174220a16165e9d116cd7a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fc1875d6b1c1285c168c1a71cc87bef8 = $(`<div id="html_fc1875d6b1c1285c168c1a71cc87bef8" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> The New South Wales Government is facilitating discussions among stakeholders to progress the development of a hydrogen hub in the Illawarra / Port Kembla region<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://portkemblahydrogenhub.com.au/' target='_blank'>Link</a></div></div>`)[0];
+                popup_ab8c882d9f174220a16165e9d116cd7a.setContent(html_fc1875d6b1c1285c168c1a71cc87bef8);
+            
+        
+
+        circle_marker_dab8dec716a5263a086c41bca6a20b9a.bindPopup(popup_ab8c882d9f174220a16165e9d116cd7a)
+        ;
+
+        
+    
+    
+            var circle_marker_ce238423bc5b4b3ac9b592284e718615 = L.circleMarker(
+                [-34.48358, 150.905792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_c4b0aea1f8c275dce837d4a5aa59e569 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8b324d8ce39cc284564681063ae0ecb5 = $(`<div id="html_8b324d8ce39cc284564681063ae0ecb5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Coregas<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.coregas.com.au/news/2021/coregas-partners-with-haskel-on-australias-first-commercial-hydrogen-powered-heavy-vehicle-refuelling-station' target='_blank'>Link</a></div></div>`)[0];
+                popup_c4b0aea1f8c275dce837d4a5aa59e569.setContent(html_8b324d8ce39cc284564681063ae0ecb5);
+            
+        
+
+        circle_marker_ce238423bc5b4b3ac9b592284e718615.bindPopup(popup_c4b0aea1f8c275dce837d4a5aa59e569)
+        ;
+
+        
+    
+    
+            var circle_marker_6de53e93926940f33beae4c3f4d3d69d = L.circleMarker(
+                [-34.4667, 150.9],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_dce0be4863d737e4284b8f8f7701c7f3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3cd44f75d32274a2c1184c6cd60e7cb0 = $(`<div id="html_3cd44f75d32274a2c1184c6cd60e7cb0" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ATCO<br><b>Electrolyser Size:</b> 1000 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.atco.com/en-au/about-us/stories/atco-secures-arena-funding-to-investigate-international-hydrogen.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_dce0be4863d737e4284b8f8f7701c7f3.setContent(html_3cd44f75d32274a2c1184c6cd60e7cb0);
+            
+        
+
+        circle_marker_6de53e93926940f33beae4c3f4d3d69d.bindPopup(popup_dce0be4863d737e4284b8f8f7701c7f3)
+        ;
+
+        
+    
+    
+            var circle_marker_ee607d13454fbc4503e1551e562957ee = L.circleMarker(
+                [-34.52278, 150.80806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_b738e6c1bb000d3cead3a034667067e5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_79d0cdea67fbd3681692519846117e8b = $(`<div id="html_79d0cdea67fbd3681692519846117e8b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> EnergyAustralia<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Operational for the use of hydrogen is anticipated to be in 2025<br><b>Reference:</b> <a href='https://www.energyaustralia.com.au/about-us/media/news/energyaustralia-gives-green-light-australias-first-net-zero-emissions' target='_blank'>Link</a></div></div>`)[0];
+                popup_b738e6c1bb000d3cead3a034667067e5.setContent(html_79d0cdea67fbd3681692519846117e8b);
+            
+        
+
+        circle_marker_ee607d13454fbc4503e1551e562957ee.bindPopup(popup_b738e6c1bb000d3cead3a034667067e5)
+        ;
+
+        
+    
+    
+            var circle_marker_8b6469f89e7b24ece2774b5dbd23604a = L.circleMarker(
+                [-33.830952, 150.865007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_60d233847408e9dd3adde3201b80629a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9cdd4108753ebe7f0474468a58a3661d = $(`<div id="html_9cdd4108753ebe7f0474468a58a3661d" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Jemena, Hyundai Australia, Coregas<br><b>Electrolyser Size:</b> 0.5 MW<br><b>Expected Start Date:</b> Operation commenced November 2021<br><b>Reference:</b> <a href='https://jemena.com.au/documents/innovation/wsggp-environmental-impact-statement_v7.aspx' target='_blank'>Link</a></div></div>`)[0];
+                popup_60d233847408e9dd3adde3201b80629a.setContent(html_9cdd4108753ebe7f0474468a58a3661d);
+            
+        
+
+        circle_marker_8b6469f89e7b24ece2774b5dbd23604a.bindPopup(popup_60d233847408e9dd3adde3201b80629a)
+        ;
+
+        
+    
+    
+            var circle_marker_461ba8e34cbfab3e7984a544b3a17b14 = L.circleMarker(
+                [-12.57, 130.96],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_c682fb3f9b2df75762988cb34e5ab4b6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4e238f329fae3c4f3c44cef3c38fee2f = $(`<div id="html_4e238f329fae3c4f3c44cef3c38fee2f" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Lattice Technology Co. Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2020s<br><b>Reference:</b> <a href='https://lattice-technology.com/darwins-projects' target='_blank'>Link</a></div></div>`)[0];
+                popup_c682fb3f9b2df75762988cb34e5ab4b6.setContent(html_4e238f329fae3c4f3c44cef3c38fee2f);
+            
+        
+
+        circle_marker_461ba8e34cbfab3e7984a544b3a17b14.bindPopup(popup_c682fb3f9b2df75762988cb34e5ab4b6)
+        ;
+
+        
+    
+    
+            var circle_marker_5ad38a830ba29ab6f670660354a7fdcf = L.circleMarker(
+                [-12.572222, 130.95],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_7a9f0297002cab868566bf78f5fdb7da = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2307e4ed75ac49384834a39a5a755d1a = $(`<div id="html_2307e4ed75ac49384834a39a5a755d1a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Northern Territory Government, Total Eren<br><b>Electrolyser Size:</b> 1000 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://createsend.com/t/t-349FCC87742FC8B02540EF23F30FEDED' target='_blank'>Link</a></div></div>`)[0];
+                popup_7a9f0297002cab868566bf78f5fdb7da.setContent(html_2307e4ed75ac49384834a39a5a755d1a);
+            
+        
+
+        circle_marker_5ad38a830ba29ab6f670660354a7fdcf.bindPopup(popup_7a9f0297002cab868566bf78f5fdb7da)
+        ;
+
+        
+    
+    
+            var circle_marker_6917407e664cfe96fe0493a4ff6b5e79 = L.circleMarker(
+                [-19.64655, 134.19093],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_5793e16669362f33f5f57bab5ad1bb59 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_56ec9c3ff97907297825ecac829ccb4b = $(`<div id="html_56ec9c3ff97907297825ecac829ccb4b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Aqua Aerem<br><b>Electrolyser Size:</b> 8000 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.aqua-aerem.com/desert-bloom-hydrogen' target='_blank'>Link</a></div></div>`)[0];
+                popup_5793e16669362f33f5f57bab5ad1bb59.setContent(html_56ec9c3ff97907297825ecac829ccb4b);
+            
+        
+
+        circle_marker_6917407e664cfe96fe0493a4ff6b5e79.bindPopup(popup_5793e16669362f33f5f57bab5ad1bb59)
+        ;
+
+        
+    
+    
+            var circle_marker_177dac58c5484e1aadfefa0a100541a3 = L.circleMarker(
+                [-20.6596, 134.091519444444],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_2e8dfd2e2309d7e0733c149ef4a46d47 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e8563a8084f93a6be67964a775c7cebe = $(`<div id="html_e8563a8084f93a6be67964a775c7cebe" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Climate Impact Capital Limited (CIC)<br><b>Electrolyser Size:</b> 10,000 (full capacity) MW<br><b>Expected Start Date:</b> Front-end Engineering and Design (FEED) study is planned for 2022/ 2023<br><b>Reference:</b> <a href='https://www.cicapital.com.au/projects-6' target='_blank'>Link</a></div></div>`)[0];
+                popup_2e8dfd2e2309d7e0733c149ef4a46d47.setContent(html_e8563a8084f93a6be67964a775c7cebe);
+            
+        
+
+        circle_marker_177dac58c5484e1aadfefa0a100541a3.bindPopup(popup_2e8dfd2e2309d7e0733c149ef4a46d47)
+        ;
+
+        
+    
+    
+            var circle_marker_5f050914339c92661fb04e49cc3cf111 = L.circleMarker(
+                [-11.42171, 130.42456],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_fd4632f64caed47d5c45853b9552c1d0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a77723bba24f78387b32e17550a1942e = $(`<div id="html_a77723bba24f78387b32e17550a1942e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Provaris Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2027<br><b>Reference:</b> <a href='https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-02441822-6A1058515?access_token=83ff96335c2d45a094df02a206a39ff4' target='_blank'>Link</a></div></div>`)[0];
+                popup_fd4632f64caed47d5c45853b9552c1d0.setContent(html_a77723bba24f78387b32e17550a1942e);
+            
+        
+
+        circle_marker_5f050914339c92661fb04e49cc3cf111.bindPopup(popup_fd4632f64caed47d5c45853b9552c1d0)
+        ;
+
+        
+    
+    
+            var circle_marker_ebc7b831b59d04cc89a61d85118e6eff = L.circleMarker(
+                [-23.80367, 151.149426],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_7f582eec190a204474d0c9b1595a35ef = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_18b8c6be8f66f993593340448cda9ff3 = $(`<div id="html_18b8c6be8f66f993593340448cda9ff3" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> The Hydrogen Utility (H2U)<br><b>Electrolyser Size:</b> 3000 MW<br><b>Expected Start Date:</b> 2025<br><b>Reference:</b> <a href='https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0030/78825/h2-hub-final-tor-3Feb23.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_7f582eec190a204474d0c9b1595a35ef.setContent(html_18b8c6be8f66f993593340448cda9ff3);
+            
+        
+
+        circle_marker_ebc7b831b59d04cc89a61d85118e6eff.bindPopup(popup_7f582eec190a204474d0c9b1595a35ef)
+        ;
+
+        
+    
+    
+            var circle_marker_d1481c3429fcad6b807e3b1dc1cc8bee = L.circleMarker(
+                [-26.58425, 149.186304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_218be09047d837060b610c4b3f1d7318 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f2d82fd27e6a90299115055377e74f30 = $(`<div id="html_f2d82fd27e6a90299115055377e74f30" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> APT Facility Management Pty Ltd (part of the APA Group), Southern Green Gas Pty Ltd<br><b>Electrolyser Size:</b> 0.005 MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.apa.com.au/news/media-statements/2020/apa-groups-renewable-methane-pilot-project-receives-arena-funding/' target='_blank'>Link</a></div></div>`)[0];
+                popup_218be09047d837060b610c4b3f1d7318.setContent(html_f2d82fd27e6a90299115055377e74f30);
+            
+        
+
+        circle_marker_d1481c3429fcad6b807e3b1dc1cc8bee.bindPopup(popup_218be09047d837060b610c4b3f1d7318)
+        ;
+
+        
+    
+    
+            var circle_marker_4d766f88bed89dad1680ce82a822bc3b = L.circleMarker(
+                [-23.810391, 151.148243],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_c259ca642826f4de272bbb7a08905f14 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f84d44968291c24bab5d1a02976fec4e = $(`<div id="html_f84d44968291c24bab5d1a02976fec4e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Southern Oil Refining Pty Ltd <br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Pilot program successfully completed; scaling up<br><b>Reference:</b> <a href='https://esdnews.com.au/gladstone-refinery-to-utilise-hydrogen-power/' target='_blank'>Link</a></div></div>`)[0];
+                popup_c259ca642826f4de272bbb7a08905f14.setContent(html_f84d44968291c24bab5d1a02976fec4e);
+            
+        
+
+        circle_marker_4d766f88bed89dad1680ce82a822bc3b.bindPopup(popup_c259ca642826f4de272bbb7a08905f14)
+        ;
+
+        
+    
+    
+            var circle_marker_d6997df863da3875b500493216e9bdf7 = L.circleMarker(
+                [-23.845, 151.027],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_00d9b1daf861efe986cc6aefb0961408 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6f6b638cfc2c34d120310d999fd9e987 = $(`<div id="html_6f6b638cfc2c34d120310d999fd9e987" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Stanwell Corporation Limited, Iwatani Corporation, Kawasaki Heavy Industries, Marubeni Corporation, Kansai Electric Power Company, APA Group<br><b>Electrolyser Size:</b> 640 - Phase 1 2000 - Phase 2 MW<br><b>Expected Start Date:</b> 2028 - Phase 1<br><b>Reference:</b> <a href='https://arena.gov.au/assets/2022/12/central-queensland-hydrogen-project-feasibility-study.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_00d9b1daf861efe986cc6aefb0961408.setContent(html_6f6b638cfc2c34d120310d999fd9e987);
+            
+        
+
+        circle_marker_d6997df863da3875b500493216e9bdf7.bindPopup(popup_00d9b1daf861efe986cc6aefb0961408)
+        ;
+
+        
+    
+    
+            var circle_marker_b771b20da3a26920df61276e433f22ec = L.circleMarker(
+                [-16.08888, 145.318302],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_07a79a3fffe3ed2bd8652d84a53bd916 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6cf5d8f62f5cf4fb30865836c6fa28b5 = $(`<div id="html_6cf5d8f62f5cf4fb30865836c6fa28b5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Volt Advisory Group<br><b>Electrolyser Size:</b> 1 MW<br><b>Expected Start Date:</b> Operations anticipated in 2024<br><b>Reference:</b> <a href='https://www.minister.industry.gov.au/ministers/taylor/media-releases/world-leading-daintree-renewable-microgrid-signed?msclkid=2140a9b1b08a11ec8c1a12cc3a3f53ce' target='_blank'>Link</a></div></div>`)[0];
+                popup_07a79a3fffe3ed2bd8652d84a53bd916.setContent(html_6cf5d8f62f5cf4fb30865836c6fa28b5);
+            
+        
+
+        circle_marker_b771b20da3a26920df61276e433f22ec.bindPopup(popup_07a79a3fffe3ed2bd8652d84a53bd916)
+        ;
+
+        
+    
+    
+            var circle_marker_4c3ef6796ebfc0d6b6dba7048e322486 = L.circleMarker(
+                [-19.648804, 146.827677],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a8d96873fb71e88d41ab412beb40b4ae = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b95451eb22c28321c12a503b096c4342 = $(`<div id="html_b95451eb22c28321c12a503b096c4342" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Edify Energy<br><b>Electrolyser Size:</b> Stage 1 - 17.5 Full capacity - 1,000 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://arena.gov.au/news/recipients-announced-for-australia-germany-hygate-initiative/' target='_blank'>Link</a></div></div>`)[0];
+                popup_a8d96873fb71e88d41ab412beb40b4ae.setContent(html_b95451eb22c28321c12a503b096c4342);
+            
+        
+
+        circle_marker_4c3ef6796ebfc0d6b6dba7048e322486.bindPopup(popup_a8d96873fb71e88d41ab412beb40b4ae)
+        ;
+
+        
+    
+    
+            var circle_marker_63dd6709b25cf035dc7e3818bebc5163 = L.circleMarker(
+                [-23.51666, 148.14999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_c950ea3308fe0f8a258c7bfb7090780c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c7373a72347124308cfa39b25bc4c56b = $(`<div id="html_c7373a72347124308cfa39b25bc4c56b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Emerald Coaches<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2024<br><b>Reference:</b> <a href='https://statements.qld.gov.au/statements/94999' target='_blank'>Link</a></div></div>`)[0];
+                popup_c950ea3308fe0f8a258c7bfb7090780c.setContent(html_c7373a72347124308cfa39b25bc4c56b);
+            
+        
+
+        circle_marker_63dd6709b25cf035dc7e3818bebc5163.bindPopup(popup_c950ea3308fe0f8a258c7bfb7090780c)
+        ;
+
+        
+    
+    
+            var circle_marker_8b21bda2eddd8d7d889b0fd8e97f7538 = L.circleMarker(
+                [-27.653, 152.817],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_d8841c19d53e739f06d280c4aa8a4896 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_296edacb9b459f261a79d380e20c48fa = $(`<div id="html_296edacb9b459f261a79d380e20c48fa" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> CleanCo<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://statements.qld.gov.au/statements/92909' target='_blank'>Link</a></div></div>`)[0];
+                popup_d8841c19d53e739f06d280c4aa8a4896.setContent(html_296edacb9b459f261a79d380e20c48fa);
+            
+        
+
+        circle_marker_8b21bda2eddd8d7d889b0fd8e97f7538.bindPopup(popup_d8841c19d53e739f06d280c4aa8a4896)
+        ;
+
+        
+    
+    
+            var circle_marker_23f685a06d280e544d0a72308cf00cc4 = L.circleMarker(
+                [-27.436, 153.122],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_48fd7dba1dce920ad0edf40bcd2b1387 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8bc921a7690afb50403907c2b85cd1b5 = $(`<div id="html_8bc921a7690afb50403907c2b85cd1b5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Fortescue Future Industries, Incitec Pivot Ltd <br><b>Electrolyser Size:</b> 500 MW<br><b>Expected Start Date:</b> 2025<br><b>Reference:</b> <a href='https://www.incitecpivot.com.au/about-us/about-incitec-pivot-limited/media/2021-12-15-milestone-brings-green-ammonia-production-a-step-closer' target='_blank'>Link</a></div></div>`)[0];
+                popup_48fd7dba1dce920ad0edf40bcd2b1387.setContent(html_8bc921a7690afb50403907c2b85cd1b5);
+            
+        
+
+        circle_marker_23f685a06d280e544d0a72308cf00cc4.bindPopup(popup_48fd7dba1dce920ad0edf40bcd2b1387)
+        ;
+
+        
+    
+    
+            var circle_marker_745a814cbd66879d130f9f9f9377abc6 = L.circleMarker(
+                [-28.52607, 150.29444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3359d81774b7a4bef9c96fb0b0ce9de7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_72787af6ab6fa8a1a888e38e8ac95fd4 = $(`<div id="html_72787af6ab6fa8a1a888e38e8ac95fd4" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Goondiwindi Regional Council<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> End of 2023<br><b>Reference:</b> <a href='https://www.grc.qld.gov.au/news/article/634/joint-statement-goondiwindi-regional-council-and-the-hydrogen-collective' target='_blank'>Link</a></div></div>`)[0];
+                popup_3359d81774b7a4bef9c96fb0b0ce9de7.setContent(html_72787af6ab6fa8a1a888e38e8ac95fd4);
+            
+        
+
+        circle_marker_745a814cbd66879d130f9f9f9377abc6.bindPopup(popup_3359d81774b7a4bef9c96fb0b0ce9de7)
+        ;
+
+        
+    
+    
+            var circle_marker_1b36c08cac7d8be72c249a8c0d96c6aa = L.circleMarker(
+                [-19.258479, 146.816331],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a7b0b99362ca2bbc6c611ecf8d2aef93 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_83d13485826e334c01bc08f0dee0e05c = $(`<div id="html_83d13485826e334c01bc08f0dee0e05c" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Origin Energy, Kawasaki Heavy Industries<br><b>Electrolyser Size:</b> 300 MW<br><b>Expected Start Date:</b> Front End Engineering Design studies to commence 2021<br><b>Reference:</b> <a href='https://www.eneos.co.jp/english/newsrelease/2021/pdf/20210823_01.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_a7b0b99362ca2bbc6c611ecf8d2aef93.setContent(html_83d13485826e334c01bc08f0dee0e05c);
+            
+        
+
+        circle_marker_1b36c08cac7d8be72c249a8c0d96c6aa.bindPopup(popup_a7b0b99362ca2bbc6c611ecf8d2aef93)
+        ;
+
+        
+    
+    
+            var circle_marker_38adf17b228295352f107d51cfeb9d1e = L.circleMarker(
+                [-23.79251, 151.15549],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_17445f7a42845d7d2da5251f61f6790e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_48b8bc696051ea29a9641d5d1dfe5143 = $(`<div id="html_48b8bc696051ea29a9641d5d1dfe5143" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Cement Australia (a Holcim and Heidelberg Materials joint venture), Mitsubishi Gas Chemical Company<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2028<br><b>Reference:</b> <a href='https://www.mgc.co.jp/eng/corporate/news/2022/221028e.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_17445f7a42845d7d2da5251f61f6790e.setContent(html_48b8bc696051ea29a9641d5d1dfe5143);
+            
+        
+
+        circle_marker_38adf17b228295352f107d51cfeb9d1e.bindPopup(popup_17445f7a42845d7d2da5251f61f6790e)
+        ;
+
+        
+    
+    
+            var circle_marker_601c70f308ac8033d41e38716a8c8512 = L.circleMarker(
+                [-20.5531, 147.8443],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ef9277af8ae88704e24e6fe9dfe777cb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_53bbbc85c29fdfbab88b784bc364e296 = $(`<div id="html_53bbbc85c29fdfbab88b784bc364e296" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Ark Energy Corporation Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://arkenergy.com.au/documents/1029/20220921_Han-Ho_H2_Consortium_Joint_Media_Release_Final.pdf#:~:text=Three%20of%20Korea%E2%80%99s%20largest%20conglomerate%20groups%2C%20Korea%20Zinc%2C,Australia%20to%20the%20Republic%20of%20Korea%20by%202032.' target='_blank'>Link</a></div></div>`)[0];
+                popup_ef9277af8ae88704e24e6fe9dfe777cb.setContent(html_53bbbc85c29fdfbab88b784bc364e296);
+            
+        
+
+        circle_marker_601c70f308ac8033d41e38716a8c8512.bindPopup(popup_ef9277af8ae88704e24e6fe9dfe777cb)
+        ;
+
+        
+    
+    
+            var circle_marker_310d1151d461fb362e9defc8f2ac3049 = L.circleMarker(
+                [-21.297, 149.285],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_eb0bf90389513ed6908f34eaa58e159c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_475e2d60fa2135f734c56468731b0f43 = $(`<div id="html_475e2d60fa2135f734c56468731b0f43" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Dalrymple Bay Infrastructure Ltd, North Queensland Bulk Ports Corporation, Brookfield Group, ITOCHU Corporation<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Fesibility study is expected to commence in 2021<br><b>Reference:</b> <a href='https://hotcopper.com.au/data/announcements/ASX/2A1316248_DBI.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_eb0bf90389513ed6908f34eaa58e159c.setContent(html_475e2d60fa2135f734c56468731b0f43);
+            
+        
+
+        circle_marker_310d1151d461fb362e9defc8f2ac3049.bindPopup(popup_eb0bf90389513ed6908f34eaa58e159c)
+        ;
+
+        
+    
+    
+            var circle_marker_450d87a43bf979752110e668ec8e500d = L.circleMarker(
+                [-10.5788889, 142.22],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_d1c406e3fbb45c629cb30fb74ca7b619 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d6d1a9aacf207d604558c4c515484833 = $(`<div id="html_d6d1a9aacf207d604558c4c515484833" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Ergon Energy Corporation Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Feasibility study is expected to be completed in 2024<br><b>Reference:</b> <a href='https://www.ergon.com.au/network/help-and-support/about-us/who-we-are/corporate-profile' target='_blank'>Link</a></div></div>`)[0];
+                popup_d1c406e3fbb45c629cb30fb74ca7b619.setContent(html_d6d1a9aacf207d604558c4c515484833);
+            
+        
+
+        circle_marker_450d87a43bf979752110e668ec8e500d.bindPopup(popup_d1c406e3fbb45c629cb30fb74ca7b619)
+        ;
+
+        
+    
+    
+            var circle_marker_3fada8a56dca12eb5c1a5870de95a54e = L.circleMarker(
+                [-19.3337514, 146.8336711],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ca7eaf87e4e594205f5f3e2b4c26edfc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_42f15da18e328b03485e677e5c323dd9 = $(`<div id="html_42f15da18e328b03485e677e5c323dd9" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Aurizon <br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://statements.qld.gov.au/statements/96246' target='_blank'>Link</a></div></div>`)[0];
+                popup_ca7eaf87e4e594205f5f3e2b4c26edfc.setContent(html_42f15da18e328b03485e677e5c323dd9);
+            
+        
+
+        circle_marker_3fada8a56dca12eb5c1a5870de95a54e.bindPopup(popup_ca7eaf87e4e594205f5f3e2b4c26edfc)
+        ;
+
+        
+    
+    
+            var circle_marker_795630d107507561fd4df9f96040d198 = L.circleMarker(
+                [-23.841457, 151.249177],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_f75fe3316d81dbe1df06bb6b8c74c27d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_abe343f7e546d937a8841afc88480fd7 = $(`<div id="html_abe343f7e546d937a8841afc88480fd7" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Australian Gas Networks (AGN), part of Australian Gas Infrastructure Group (AGIG)<br><b>Electrolyser Size:</b> 0.175 MW<br><b>Expected Start Date:</b>  2022<br><b>Reference:</b> <a href='https://www.agig.com.au/hydrogen-park-gladstone' target='_blank'>Link</a></div></div>`)[0];
+                popup_f75fe3316d81dbe1df06bb6b8c74c27d.setContent(html_abe343f7e546d937a8841afc88480fd7);
+            
+        
+
+        circle_marker_795630d107507561fd4df9f96040d198.bindPopup(popup_f75fe3316d81dbe1df06bb6b8c74c27d)
+        ;
+
+        
+    
+    
+            var circle_marker_1cced27f96ee6b33781acf6b09421092 = L.circleMarker(
+                [-24.573135, 149.97496],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_1c6e87a8256deb1c9bb6d7f53c44d037 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f76f0b8032eebd74c74f7cb42b7f9e33 = $(`<div id="html_f76f0b8032eebd74c74f7cb42b7f9e33" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Aurizon, Anglo American<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.angloamerican.com/media/press-releases/2021/13-12-2021' target='_blank'>Link</a></div></div>`)[0];
+                popup_1c6e87a8256deb1c9bb6d7f53c44d037.setContent(html_f76f0b8032eebd74c74f7cb42b7f9e33);
+            
+        
+
+        circle_marker_1cced27f96ee6b33781acf6b09421092.bindPopup(popup_1c6e87a8256deb1c9bb6d7f53c44d037)
+        ;
+
+        
+    
+    
+            var circle_marker_39c858e0eb919ba9955dc4f0fc58ae27 = L.circleMarker(
+                [-26.92, 150.75],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a09aa978146354daea1f1f98d4887e73 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d38d4f29d02b74b92f11f3a669edd01 = $(`<div id="html_4d38d4f29d02b74b92f11f3a669edd01" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Queensland Government (CS Energy as development lead)<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2027<br><b>Reference:</b> <a href='https://www.epw.qld.gov.au/energyandjobsplan' target='_blank'>Link</a></div></div>`)[0];
+                popup_a09aa978146354daea1f1f98d4887e73.setContent(html_4d38d4f29d02b74b92f11f3a669edd01);
+            
+        
+
+        circle_marker_39c858e0eb919ba9955dc4f0fc58ae27.bindPopup(popup_a09aa978146354daea1f1f98d4887e73)
+        ;
+
+        
+    
+    
+            var circle_marker_d4a1c870f8ce404ebf5fc7dd391cc08e = L.circleMarker(
+                [-26.91639, 150.74918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_407da7bfc85dfbb7b005feb5a9ddf621 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b64a8a99b25cbfe19ee9fb776b5a3b64 = $(`<div id="html_b64a8a99b25cbfe19ee9fb776b5a3b64" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> CS Energy, Senex Energy<br><b>Electrolyser Size:</b> 1 MW<br><b>Expected Start Date:</b> Physical Construction expected to commence in 2022 with commissioning in early 2023<br><b>Reference:</b> <a href='https://www.csenergy.com.au/news/cs-energy-and-senex-energy-join-forces-on-renewable-hydrogen' target='_blank'>Link</a></div></div>`)[0];
+                popup_407da7bfc85dfbb7b005feb5a9ddf621.setContent(html_b64a8a99b25cbfe19ee9fb776b5a3b64);
+            
+        
+
+        circle_marker_d4a1c870f8ce404ebf5fc7dd391cc08e.bindPopup(popup_407da7bfc85dfbb7b005feb5a9ddf621)
+        ;
+
+        
+    
+    
+            var circle_marker_44fa719fba8ac38259c9162104b5d2fa = L.circleMarker(
+                [-27.248, 150.821],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a0cf4f3a9d2f7927f56e458fd2594820 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8ca29bc90dad6cf87257bebe10dfb88b = $(`<div id="html_8ca29bc90dad6cf87257bebe10dfb88b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Elecseed<br><b>Electrolyser Size:</b> Stage 1 - 0.25 Full scale - 80 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://k-rep.com.au/' target='_blank'>Link</a></div></div>`)[0];
+                popup_a0cf4f3a9d2f7927f56e458fd2594820.setContent(html_8ca29bc90dad6cf87257bebe10dfb88b);
+            
+        
+
+        circle_marker_44fa719fba8ac38259c9162104b5d2fa.bindPopup(popup_a0cf4f3a9d2f7927f56e458fd2594820)
+        ;
+
+        
+    
+    
+            var circle_marker_b6ce42d619493e190b8313ba885a381b = L.circleMarker(
+                [-23.83, 151.2],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_0a411bc8d178332f38d46aca42447937 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8cc96284bf031a35594fb806b1fbfa96 = $(`<div id="html_8cc96284bf031a35594fb806b1fbfa96" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Origin Energy, ENEOS<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.eneos.co.jp/english/newsrelease/2021/pdf/20210823_01.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_0a411bc8d178332f38d46aca42447937.setContent(html_8cc96284bf031a35594fb806b1fbfa96);
+            
+        
+
+        circle_marker_b6ce42d619493e190b8313ba885a381b.bindPopup(popup_0a411bc8d178332f38d46aca42447937)
+        ;
+
+        
+    
+    
+            var circle_marker_466473f3e5bc64fd64f39263a63bacca = L.circleMarker(
+                [-24.371, 150.614],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_9ee0ca32d417f55e82ac99795a6b5260 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9fa0fbb20ae6826ec54165da88a1c8ae = $(`<div id="html_9fa0fbb20ae6826ec54165da88a1c8ae" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Austrom Hydrogen (European Energy majority shareholder)<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://europeanenergy.com/2022/12/15/european-energy-takes-major-step-into-3600-mw-australian-solar-hydrogen-project/' target='_blank'>Link</a></div></div>`)[0];
+                popup_9ee0ca32d417f55e82ac99795a6b5260.setContent(html_9fa0fbb20ae6826ec54165da88a1c8ae);
+            
+        
+
+        circle_marker_466473f3e5bc64fd64f39263a63bacca.bindPopup(popup_9ee0ca32d417f55e82ac99795a6b5260)
+        ;
+
+        
+    
+    
+            var circle_marker_d203f483c04ab96fbe8bc8b447bff00f = L.circleMarker(
+                [-23.827523, 151.211648],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_daebfa251124d5d170b6696d7b263d6d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_404756120ffa7ea1239a0c8dc31bf890 = $(`<div id="html_404756120ffa7ea1239a0c8dc31bf890" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Austrom Hydrogen<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://europeanenergy.com/2022/12/15/european-energy-takes-major-step-into-3600-mw-australian-solar-hydrogen-project/' target='_blank'>Link</a></div></div>`)[0];
+                popup_daebfa251124d5d170b6696d7b263d6d.setContent(html_404756120ffa7ea1239a0c8dc31bf890);
+            
+        
+
+        circle_marker_d203f483c04ab96fbe8bc8b447bff00f.bindPopup(popup_daebfa251124d5d170b6696d7b263d6d)
+        ;
+
+        
+    
+    
+            var circle_marker_565e7a695ffe3127208b09b1092ad3ff = L.circleMarker(
+                [-27.404493, 153.134328],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_7b931be5fc5f0e48c614e2cb698aeadd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_01aa6c785062b2fda2eeb2e0eec45ad5 = $(`<div id="html_01aa6c785062b2fda2eeb2e0eec45ad5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> BOC Limited<br><b>Electrolyser Size:</b> 0.22 MW<br><b>Expected Start Date:</b> Operational in May 2023<br><b>Reference:</b> <a href='https://arena.gov.au/assets/2023/03/boc-hydrogen-refueling-guide.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_7b931be5fc5f0e48c614e2cb698aeadd.setContent(html_01aa6c785062b2fda2eeb2e0eec45ad5);
+            
+        
+
+        circle_marker_565e7a695ffe3127208b09b1092ad3ff.bindPopup(popup_7b931be5fc5f0e48c614e2cb698aeadd)
+        ;
+
+        
+    
+    
+            var circle_marker_721bb808a565a8de5ef5ad5824c50c47 = L.circleMarker(
+                [-27.553628, 153.054421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_760d27cb237813ddebe5c30e8ca2f37f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8eb077a0a669380de884794c8cbde08d = $(`<div id="html_8eb077a0a669380de884794c8cbde08d" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Griffith University<br><b>Electrolyser Size:</b> 0.16 MW<br><b>Expected Start Date:</b> Operating<br><b>Reference:</b> <a href='https://www.griffith.edu.au/sustainability/sustainable-campuses/buildings' target='_blank'>Link</a></div></div>`)[0];
+                popup_760d27cb237813ddebe5c30e8ca2f37f.setContent(html_8eb077a0a669380de884794c8cbde08d);
+            
+        
+
+        circle_marker_721bb808a565a8de5ef5ad5824c50c47.bindPopup(popup_760d27cb237813ddebe5c30e8ca2f37f)
+        ;
+
+        
+    
+    
+            var circle_marker_82530fa8e80d3ea7971df7d6c18fb24c = L.circleMarker(
+                [-28.078579, 152.347966],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_0f4a6044f3f24c89ec9646d39ae3f780 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3921209c8c536e364ff7160c4c869d5e = $(`<div id="html_3921209c8c536e364ff7160c4c869d5e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Jilrift Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://spicersretreats.com/scenic-rim-trail/' target='_blank'>Link</a></div></div>`)[0];
+                popup_0f4a6044f3f24c89ec9646d39ae3f780.setContent(html_3921209c8c536e364ff7160c4c869d5e);
+            
+        
+
+        circle_marker_82530fa8e80d3ea7971df7d6c18fb24c.bindPopup(popup_0f4a6044f3f24c89ec9646d39ae3f780)
+        ;
+
+        
+    
+    
+            var circle_marker_a243203f459c7c125c675fbc846c8992 = L.circleMarker(
+                [-23.831525, 151.230479],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ccb77e1672922a66fb69273b6a6202b5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2fbfa3e9d640d4ac6aa209cac02b862a = $(`<div id="html_2fbfa3e9d640d4ac6aa209cac02b862a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Sumitomo Corporation - production, Rio Tinto – prospective hydrogen offtake partner<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Front End Engineering Design (FEED) studies completed in early 2022<br><b>Reference:</b> <a href='https://www.riotinto.com/news/releases/2021/Rio-Tinto-and-Sumitomo-to-assess-hydrogen-pilot-plant-at-Gladstones-Yarwun-alumina-refinery' target='_blank'>Link</a></div></div>`)[0];
+                popup_ccb77e1672922a66fb69273b6a6202b5.setContent(html_2fbfa3e9d640d4ac6aa209cac02b862a);
+            
+        
+
+        circle_marker_a243203f459c7c125c675fbc846c8992.bindPopup(popup_ccb77e1672922a66fb69273b6a6202b5)
+        ;
+
+        
+    
+    
+            var circle_marker_05041405794b312141976e085a3e04b3 = L.circleMarker(
+                [-19.332736, 146.891269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_d1eb80f2d644357db72854756321701b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0a3f7ba5e3da8f4fb85bac7f10fff75a = $(`<div id="html_0a3f7ba5e3da8f4fb85bac7f10fff75a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Ark Energy Corporation<br><b>Electrolyser Size:</b> 1 MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://arena.gov.au/assets/2023/04/sunhq-ark-lessons-learnt-2.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_d1eb80f2d644357db72854756321701b.setContent(html_0a3f7ba5e3da8f4fb85bac7f10fff75a);
+            
+        
+
+        circle_marker_05041405794b312141976e085a3e04b3.bindPopup(popup_d1eb80f2d644357db72854756321701b)
+        ;
+
+        
+    
+    
+            var circle_marker_68be7ab7d0deb6a88ce7c8b1aa8ed525 = L.circleMarker(
+                [-24.850738, 152.369209],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3a1f98c0a0aaebc6e7564e9ebe9fb577 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e48da16bc6e6fefd5776691645d90c34 = $(`<div id="html_e48da16bc6e6fefd5776691645d90c34" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Utilitas Group<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.bundabergnow.com/2020/10/01/bundaberg-biohub-industrial-park-open-for-business/' target='_blank'>Link</a></div></div>`)[0];
+                popup_3a1f98c0a0aaebc6e7564e9ebe9fb577.setContent(html_e48da16bc6e6fefd5776691645d90c34);
+            
+        
+
+        circle_marker_68be7ab7d0deb6a88ce7c8b1aa8ed525.bindPopup(popup_3a1f98c0a0aaebc6e7564e9ebe9fb577)
+        ;
+
+        
+    
+    
+            var circle_marker_6a68faaaaf76f59d6fd78bbaa50ff163 = L.circleMarker(
+                [-27.5277737, 153.1967585],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_b373a65ee0ab3a0c045a27dbb6e904eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e4fd19634ef7adabdea35d970f6bc881 = $(`<div id="html_e4fd19634ef7adabdea35d970f6bc881" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Transdev Queensland<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.transdev.com.au/news-en/transdev-backs-hydrogen-bus-future/' target='_blank'>Link</a></div></div>`)[0];
+                popup_b373a65ee0ab3a0c045a27dbb6e904eb.setContent(html_e4fd19634ef7adabdea35d970f6bc881);
+            
+        
+
+        circle_marker_6a68faaaaf76f59d6fd78bbaa50ff163.bindPopup(popup_b373a65ee0ab3a0c045a27dbb6e904eb)
+        ;
+
+        
+    
+    
+            var circle_marker_5a831c489dc3b922b9dea4c9dee46656 = L.circleMarker(
+                [-35.00999, 138.571],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_5afe97b975a5dccc19783b3aaa2e7910 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0446588f797a2bdcb9716deace9c21a4 = $(`<div id="html_0446588f797a2bdcb9716deace9c21a4" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Australian Gas Networks (AGN), part of Australian Gas Infrastructure Group (AGIG), South Australian Department for Energy and Mining, Victorian Department of Environment: Land, Water and Planning, AusNet Services, ENGIE Energy Services, Neoen Australia<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.agig.com.au/australian-hydrogen-centre' target='_blank'>Link</a></div></div>`)[0];
+                popup_5afe97b975a5dccc19783b3aaa2e7910.setContent(html_0446588f797a2bdcb9716deace9c21a4);
+            
+        
+
+        circle_marker_5a831c489dc3b922b9dea4c9dee46656.bindPopup(popup_5afe97b975a5dccc19783b3aaa2e7910)
+        ;
+
+        
+    
+    
+            var circle_marker_1cb0c8bcbf82042d3f8c1c8a433c14a3 = L.circleMarker(
+                [-34.1791667, 136.30333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_49dc197f372c638f8ed6078c0514b25f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_97d47e9614fe9ef50e17fa2ee9739e03 = $(`<div id="html_97d47e9614fe9ef50e17fa2ee9739e03" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Amp Energy, Iron Road Ltd<br><b>Electrolyser Size:</b> 5000 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.premier.sa.gov.au/media-releases/news-items/green-hydrogen-project-enters-next-phase' target='_blank'>Link</a></div></div>`)[0];
+                popup_49dc197f372c638f8ed6078c0514b25f.setContent(html_97d47e9614fe9ef50e17fa2ee9739e03);
+            
+        
+
+        circle_marker_1cb0c8bcbf82042d3f8c1c8a433c14a3.bindPopup(popup_49dc197f372c638f8ed6078c0514b25f)
+        ;
+
+        
+    
+    
+            var circle_marker_0823fec2d54854465148cb43b5ab08ed = L.circleMarker(
+                [-33.034574, 137.575607],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_77151dd9ab733ecd7256f292df78dee0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f87a9536c813e9f63a5f2f7f324f119d = $(`<div id="html_f87a9536c813e9f63a5f2f7f324f119d" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> The Hydrogen Utility (H2U), Thyssenkrupp, Baker Hughes GE<br><b>Electrolyser Size:</b> 75 MW<br><b>Expected Start Date:</b>  Front-end Engineering and Design study for the Demonstrator stage to begin December 2020<br><b>Reference:</b> <a href='http://www.renewablessa.sa.gov.au/topic/hydrogen/hydrogen-projects-south-australia/hydrogen-green-ammonia-production-facility' target='_blank'>Link</a></div></div>`)[0];
+                popup_77151dd9ab733ecd7256f292df78dee0.setContent(html_f87a9536c813e9f63a5f2f7f324f119d);
+            
+        
+
+        circle_marker_0823fec2d54854465148cb43b5ab08ed.bindPopup(popup_77151dd9ab733ecd7256f292df78dee0)
+        ;
+
+        
+    
+    
+            var circle_marker_9ba50ecc639b014390fcd3510acdcacb = L.circleMarker(
+                [-34.767509, 138.593112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_df96fdc76d8cff7bd0d3e8ef36026841 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7c86770426339cf5970ff2b610c41854 = $(`<div id="html_7c86770426339cf5970ff2b610c41854" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Marubeni Corporation<br><b>Electrolyser Size:</b> 0.15 MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.premier.sa.gov.au/media-releases/news-items/sa-to-export-green-hydrogen-to-indonesia' target='_blank'>Link</a></div></div>`)[0];
+                popup_df96fdc76d8cff7bd0d3e8ef36026841.setContent(html_7c86770426339cf5970ff2b610c41854);
+            
+        
+
+        circle_marker_9ba50ecc639b014390fcd3510acdcacb.bindPopup(popup_df96fdc76d8cff7bd0d3e8ef36026841)
+        ;
+
+        
+    
+    
+            var circle_marker_0ea9e3212956db25f4044fd2bd41a816 = L.circleMarker(
+                [-35.010047, 138.570863],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_13059e0571b016e56212a6dc6ebbe686 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ee9b4272a5b419b452e583365a739d9e = $(`<div id="html_ee9b4272a5b419b452e583365a739d9e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Australian Gas Networks (AGN), part of Australian Gas Infrastructure Group (AGIG), BOC<br><b>Electrolyser Size:</b> 1.25 MW<br><b>Expected Start Date:</b> Operational - May 2021<br><b>Reference:</b> <a href='https://www.australiangasnetworks.com.au/our-business/about-us/media-releases/hydrogen-park-sa-to-be-industry-supplier' target='_blank'>Link</a></div></div>`)[0];
+                popup_13059e0571b016e56212a6dc6ebbe686.setContent(html_ee9b4272a5b419b452e583365a739d9e);
+            
+        
+
+        circle_marker_0ea9e3212956db25f4044fd2bd41a816.bindPopup(popup_13059e0571b016e56212a6dc6ebbe686)
+        ;
+
+        
+    
+    
+            var circle_marker_b1a4a177f6baa18a3c18ece1b09a3489 = L.circleMarker(
+                [-33.7882, 138.9984],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_fc60527a05ce652b4e5b1b95f79259e7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_92b6195376630955900f7ec270ef52d7 = $(`<div id="html_92b6195376630955900f7ec270ef52d7" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Neoen Australia, ENEOS<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://goyderenergy.com.au/2021/05/12/goyder-south-hybrid-energy-facility-development-application-approved/' target='_blank'>Link</a></div></div>`)[0];
+                popup_fc60527a05ce652b4e5b1b95f79259e7.setContent(html_92b6195376630955900f7ec270ef52d7);
+            
+        
+
+        circle_marker_b1a4a177f6baa18a3c18ece1b09a3489.bindPopup(popup_fc60527a05ce652b4e5b1b95f79259e7)
+        ;
+
+        
+    
+    
+            var circle_marker_a612010dd6b16a4d0fea0ae4c3b7f9ac = L.circleMarker(
+                [-32.991667, 137.763889],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_146bdfbf384dd3a540e7cf6c1d0b9368 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a50b611dab321ab8f1b594aa6f2dfad1 = $(`<div id="html_a50b611dab321ab8f1b594aa6f2dfad1" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Government of South Australia (Project lead on behalf of itself and project partners)<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://energynews.biz/south-australia-reveals-partners-for-13b-hydrogen-power-plant/' target='_blank'>Link</a></div></div>`)[0];
+                popup_146bdfbf384dd3a540e7cf6c1d0b9368.setContent(html_a50b611dab321ab8f1b594aa6f2dfad1);
+            
+        
+
+        circle_marker_a612010dd6b16a4d0fea0ae4c3b7f9ac.bindPopup(popup_146bdfbf384dd3a540e7cf6c1d0b9368)
+        ;
+
+        
+    
+    
+            var circle_marker_3106acf7bef3484f6562c09c51aad5f8 = L.circleMarker(
+                [-33.17828, 138.00893],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_db1f65fb56df21d07bcd096ea97452d6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5aaca7f6d208460572f0ca780e507cd2 = $(`<div id="html_5aaca7f6d208460572f0ca780e507cd2" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Trafigura Group Pte. Ltd<br><b>Electrolyser Size:</b> 85 (Phase 1) / 440 (Full Scale) MW<br><b>Expected Start Date:</b> Final investment decision anticipated end of 2022<br><b>Reference:</b> <a href='https://www.nyrstar.com/resource-center/press-releases/planned-new-green-hydrogen-project-at-port-pirie-south-australia' target='_blank'>Link</a></div></div>`)[0];
+                popup_db1f65fb56df21d07bcd096ea97452d6.setContent(html_5aaca7f6d208460572f0ca780e507cd2);
+            
+        
+
+        circle_marker_3106acf7bef3484f6562c09c51aad5f8.bindPopup(popup_db1f65fb56df21d07bcd096ea97452d6)
+        ;
+
+        
+    
+    
+            var circle_marker_5ee497ff1808f55070d7933cf15d08f9 = L.circleMarker(
+                [-32.2, 137.6],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_6888fee9d987c28e52c0a38afce17234 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c6f5ffdc9b1fb7b9facd1360dc542d7a = $(`<div id="html_c6f5ffdc9b1fb7b9facd1360dc542d7a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Vast<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://arena.gov.au/news/recipients-announced-for-australia-germany-hygate-initiative/' target='_blank'>Link</a></div></div>`)[0];
+                popup_6888fee9d987c28e52c0a38afce17234.setContent(html_c6f5ffdc9b1fb7b9facd1360dc542d7a);
+            
+        
+
+        circle_marker_5ee497ff1808f55070d7933cf15d08f9.bindPopup(popup_6888fee9d987c28e52c0a38afce17234)
+        ;
+
+        
+    
+    
+            var circle_marker_67da462131fb6ec5873f6a0807399faa = L.circleMarker(
+                [-32.98524, 137.77221],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_024ed95d73ad0d84bb515c827dc52e26 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_76595a3a4bb3852d8308c8bebf00d1f8 = $(`<div id="html_76595a3a4bb3852d8308c8bebf00d1f8" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> The Office of Hydrogen Power South Australia<br><b>Electrolyser Size:</b> 250 MW<br><b>Expected Start Date:</b> 2025<br><b>Reference:</b> <a href='https://www.energymining.sa.gov.au/home/news/latest/strong-global-interest-for-sas-hydrogen-jobs-plan' target='_blank'>Link</a></div></div>`)[0];
+                popup_024ed95d73ad0d84bb515c827dc52e26.setContent(html_76595a3a4bb3852d8308c8bebf00d1f8);
+            
+        
+
+        circle_marker_67da462131fb6ec5873f6a0807399faa.bindPopup(popup_024ed95d73ad0d84bb515c827dc52e26)
+        ;
+
+        
+    
+    
+            var circle_marker_5435a3b4192c0823ac06d54f99635369 = L.circleMarker(
+                [-34.7999968, 138.5333312],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_d07c0bfb3ae67e673a950a4ffe3ebd17 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_aa567e4e48e7c9c51b368bafdace25d4 = $(`<div id="html_aa567e4e48e7c9c51b368bafdace25d4" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> AGL Energy Limited (AGL: consortium lead)<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.agl.com.au/about-agl/media-centre/asx-and-media-releases/2022/june/agl-partners-with-industry-for-a-study-to-transform-torrens-isla' target='_blank'>Link</a></div></div>`)[0];
+                popup_d07c0bfb3ae67e673a950a4ffe3ebd17.setContent(html_aa567e4e48e7c9c51b368bafdace25d4);
+            
+        
+
+        circle_marker_5435a3b4192c0823ac06d54f99635369.bindPopup(popup_d07c0bfb3ae67e673a950a4ffe3ebd17)
+        ;
+
+        
+    
+    
+            var circle_marker_ef8a0e4b053dc70c96504157595070c7 = L.circleMarker(
+                [-41.141944, 146.9025],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_dd72adeb56097995d1bda9d31c691e6e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ed48e353b2406afdd28c141f796a7018 = $(`<div id="html_ed48e353b2406afdd28c141f796a7018" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ABEL Energy<br><b>Electrolyser Size:</b> 120-260 MW<br><b>Expected Start Date:</b> 2027<br><b>Reference:</b> <a href='https://abelenergy.com.au/bell-bay-powerfuels' target='_blank'>Link</a></div></div>`)[0];
+                popup_dd72adeb56097995d1bda9d31c691e6e.setContent(html_ed48e353b2406afdd28c141f796a7018);
+            
+        
+
+        circle_marker_ef8a0e4b053dc70c96504157595070c7.bindPopup(popup_dd72adeb56097995d1bda9d31c691e6e)
+        ;
+
+        
+    
+    
+            var circle_marker_9574ef6ffceb67777f0001523bbf4fee = L.circleMarker(
+                [-41.135457, 146.860261],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_fccbc81934fbd90eadc2ea382680638f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d312945cb18d41a880459c8ce75f7ba1 = $(`<div id="html_d312945cb18d41a880459c8ce75f7ba1" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Fortescue Future Industries<br><b>Electrolyser Size:</b> 250 MW<br><b>Expected Start Date:</b> Final investment decision anticipated 2021<br><b>Reference:</b> <a href='https://www.fmgl.com.au/in-the-news/media-releases/2021/06/23/fortescue-future-industries-signs-option-agreement-with-tasports-for-land-and-operating-access-for-green-hydrogen-plant' target='_blank'>Link</a></div></div>`)[0];
+                popup_fccbc81934fbd90eadc2ea382680638f.setContent(html_d312945cb18d41a880459c8ce75f7ba1);
+            
+        
+
+        circle_marker_9574ef6ffceb67777f0001523bbf4fee.bindPopup(popup_fccbc81934fbd90eadc2ea382680638f)
+        ;
+
+        
+    
+    
+            var circle_marker_0dc11ae3a26d51db7adb3cb31f9ee317 = L.circleMarker(
+                [-40.85216, 145.380864],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_39ede7ff0ddca9a9442a64bf2b1c6e9f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bb487effb085bfdb29249cb3db99994c = $(`<div id="html_bb487effb085bfdb29249cb3db99994c" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Grange Resources (Tasmania) Pty Ltd<br><b>Electrolyser Size:</b> 90-100 MW<br><b>Expected Start Date:</b> Feasibility study completed in 2021<br><b>Reference:</b> <a href='https://grange.blob.core.windows.net/public/6fd54e5b-2977-4cb6-a2f1-2529ac721c60.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_39ede7ff0ddca9a9442a64bf2b1c6e9f.setContent(html_bb487effb085bfdb29249cb3db99994c);
+            
+        
+
+        circle_marker_0dc11ae3a26d51db7adb3cb31f9ee317.bindPopup(popup_39ede7ff0ddca9a9442a64bf2b1c6e9f)
+        ;
+
+        
+    
+    
+            var circle_marker_b3d6ebdac3dedda0211c73d93c4bd6bb = L.circleMarker(
+                [-41.1, 146.816667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_4d16ccaaf552d958e3a7471cc55abbf2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_caaab17d18530642a2301c10d0b9fb2a = $(`<div id="html_caaab17d18530642a2301c10d0b9fb2a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> LINE Hydrogen<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.linehydrogen.com.au/news/australias-first-green-hydrogen-production-facility-receives-approval' target='_blank'>Link</a></div></div>`)[0];
+                popup_4d16ccaaf552d958e3a7471cc55abbf2.setContent(html_caaab17d18530642a2301c10d0b9fb2a);
+            
+        
+
+        circle_marker_b3d6ebdac3dedda0211c73d93c4bd6bb.bindPopup(popup_4d16ccaaf552d958e3a7471cc55abbf2)
+        ;
+
+        
+    
+    
+            var circle_marker_e58e68ef2c20ed26034d4fec9c77f84d = L.circleMarker(
+                [-41.1639, 146.9346],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_02bf48ba8ad0928efe73bc06cba9e9f0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c4d58cfe32a9d95c2e430424ba435cad = $(`<div id="html_c4d58cfe32a9d95c2e430424ba435cad" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Woodside Energy Ltd (Operator), Marubeni Corporation, IHI Corporation<br><b>Electrolyser Size:</b> 300 MW<br><b>Expected Start Date:</b> Final investment decision anticipated 2023<br><b>Reference:</b> <a href='https://epa.tas.gov.au/business-industry/assessment/proposals-assessed-by-the-epa/woodside-energy-ltd-h2tas-renewable-hydrogen-and-ammonia-facility-bell-bay' target='_blank'>Link</a></div></div>`)[0];
+                popup_02bf48ba8ad0928efe73bc06cba9e9f0.setContent(html_c4d58cfe32a9d95c2e430424ba435cad);
+            
+        
+
+        circle_marker_e58e68ef2c20ed26034d4fec9c77f84d.bindPopup(popup_02bf48ba8ad0928efe73bc06cba9e9f0)
+        ;
+
+        
+    
+    
+            var circle_marker_e8421875267b8bff5efa3de62fddaed6 = L.circleMarker(
+                [-41.51705, 145.71562],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_823e21e7c3423a0e01d1872620a7fd37 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5cfb747d98785701be679c3f08ca6d13 = $(`<div id="html_5cfb747d98785701be679c3f08ca6d13" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> HIF Global<br><b>Electrolyser Size:</b> 250 MW<br><b>Expected Start Date:</b> 2026<br><b>Reference:</b> <a href='https://hifglobal.com/wp-content/uploads/2022/07/HIF-Global-begins-approval-process-for-its-first-carbon-neutral-eFuels-manufacturing-facility-in-Australia.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_823e21e7c3423a0e01d1872620a7fd37.setContent(html_5cfb747d98785701be679c3f08ca6d13);
+            
+        
+
+        circle_marker_e8421875267b8bff5efa3de62fddaed6.bindPopup(popup_823e21e7c3423a0e01d1872620a7fd37)
+        ;
+
+        
+    
+    
+            var circle_marker_535da4b835de064405341446f29bdb90 = L.circleMarker(
+                [-42.7105555555555, 147.228777777777],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_46b2bae28982ddbd66199f512c07223c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_58dd59e6aa4fe83412d2996e264fb985 = $(`<div id="html_58dd59e6aa4fe83412d2996e264fb985" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Countrywide Hydrogen Pty Ltd<br><b>Electrolyser Size:</b> 2 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://crh2.com.au/' target='_blank'>Link</a></div></div>`)[0];
+                popup_46b2bae28982ddbd66199f512c07223c.setContent(html_58dd59e6aa4fe83412d2996e264fb985);
+            
+        
+
+        circle_marker_535da4b835de064405341446f29bdb90.bindPopup(popup_46b2bae28982ddbd66199f512c07223c)
+        ;
+
+        
+    
+    
+            var circle_marker_d7871218b3e4a455d8159509334710f2 = L.circleMarker(
+                [-41.545, 147.215],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_84619f6901ba7ede4ada832c8b6a3f40 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8bd09d74250f8108e039a7f2933fffbc = $(`<div id="html_8bd09d74250f8108e039a7f2933fffbc" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Countrywide Hydrogen Pty Ltd, Launceston Airport<br><b>Electrolyser Size:</b> 5 MW<br><b>Expected Start Date:</b> Final investment decision is targeted for October 2023<br><b>Reference:</b> <a href='https://launcestonairport.com.au/corporate-news/2022/countrywide-launceston-airport-to-explore-renewable-hydrogen-project' target='_blank'>Link</a></div></div>`)[0];
+                popup_84619f6901ba7ede4ada832c8b6a3f40.setContent(html_8bd09d74250f8108e039a7f2933fffbc);
+            
+        
+
+        circle_marker_d7871218b3e4a455d8159509334710f2.bindPopup(popup_84619f6901ba7ede4ada832c8b6a3f40)
+        ;
+
+        
+    
+    
+            var circle_marker_d61d50a3d154fa0d87307b1b98d507be = L.circleMarker(
+                [-41.136788, 146.847163],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_be5b30e5f82a20afc6aa1aaf5798a4fb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e0bf0cce2b07dbe853f14477e352cdc5 = $(`<div id="html_e0bf0cce2b07dbe853f14477e352cdc5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Origin Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Feasibility study expected to be completed December 2021<br><b>Reference:</b> <a href='https://www.originenergy.com.au/about/investors-media/media-centre/origin_to_investigate_export_scale_green_hydrogen_project_in_tasmania.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_be5b30e5f82a20afc6aa1aaf5798a4fb.setContent(html_e0bf0cce2b07dbe853f14477e352cdc5);
+            
+        
+
+        circle_marker_d61d50a3d154fa0d87307b1b98d507be.bindPopup(popup_be5b30e5f82a20afc6aa1aaf5798a4fb)
+        ;
+
+        
+    
+    
+            var circle_marker_c0d1409808e2907cf26990ebd8654136 = L.circleMarker(
+                [-41.816105, 145.2481],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_f2bc18396ddf5ed95ad4f9a7807287a4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_10a5a5e390340e38dd1f1b553654a76b = $(`<div id="html_10a5a5e390340e38dd1f1b553654a76b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Westcoast Renewable Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://tasmaniantimes.com/2022/05/labors-community-battery-plan-for-burnie/' target='_blank'>Link</a></div></div>`)[0];
+                popup_f2bc18396ddf5ed95ad4f9a7807287a4.setContent(html_10a5a5e390340e38dd1f1b553654a76b);
+            
+        
+
+        circle_marker_c0d1409808e2907cf26990ebd8654136.bindPopup(popup_f2bc18396ddf5ed95ad4f9a7807287a4)
+        ;
+
+        
+    
+    
+            var circle_marker_c8e27d84bf9bd7e2c2381eb94750b99b = L.circleMarker(
+                [-37.70773, 144.41045],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_535ad7943895da1ce54fbc90c4f9b454 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0868eb8331bf420ba37453550a1ca846 = $(`<div id="html_0868eb8331bf420ba37453550a1ca846" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Calix<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://arena.gov.au/projects/calix-zero-emissions-steel-technology-zesty-pre-feed-feed-study/' target='_blank'>Link</a></div></div>`)[0];
+                popup_535ad7943895da1ce54fbc90c4f9b454.setContent(html_0868eb8331bf420ba37453550a1ca846);
+            
+        
+
+        circle_marker_c8e27d84bf9bd7e2c2381eb94750b99b.bindPopup(popup_535ad7943895da1ce54fbc90c4f9b454)
+        ;
+
+        
+    
+    
+            var circle_marker_b5d03ba01d5ac857e7b167bf8540e21b = L.circleMarker(
+                [-37.8475965, 144.7925081],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_5b72baf7b10cc66e5229592283d04380 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d9c3ae280fe15a3412a2a3546ba2272 = $(`<div id="html_4d9c3ae280fe15a3412a2a3546ba2272" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Air Liquide Australia Solutions Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.energy.vic.gov.au/grants/commercialisation-pathways-fund?msclkid=cb824993b21611ecb3d17a72662e6c93' target='_blank'>Link</a></div></div>`)[0];
+                popup_5b72baf7b10cc66e5229592283d04380.setContent(html_4d9c3ae280fe15a3412a2a3546ba2272);
+            
+        
+
+        circle_marker_b5d03ba01d5ac857e7b167bf8540e21b.bindPopup(popup_5b72baf7b10cc66e5229592283d04380)
+        ;
+
+        
+    
+    
+            var circle_marker_e85fce2deab1104b6a705e3f18d93068 = L.circleMarker(
+                [-37.9224073, 145.1489153],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3a2994aac05d53a71dfa3429ecef906c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_777b8f455e60d0770835155209a41c86 = $(`<div id="html_777b8f455e60d0770835155209a41c86" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Energys Australia Pty Ltd<br><b>Electrolyser Size:</b> 1 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.energy.vic.gov.au/grants/commercialisation-pathways-fund?msclkid=cb824993b21611ecb3d17a72662e6c93' target='_blank'>Link</a></div></div>`)[0];
+                popup_3a2994aac05d53a71dfa3429ecef906c.setContent(html_777b8f455e60d0770835155209a41c86);
+            
+        
+
+        circle_marker_e85fce2deab1104b6a705e3f18d93068.bindPopup(popup_3a2994aac05d53a71dfa3429ecef906c)
+        ;
+
+        
+    
+    
+            var circle_marker_d6410ee9339c37570593a0a00643a173 = L.circleMarker(
+                [-38.11667, 144.43333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_4447661aeca1618848329f905591d085 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1d9bff4f9296ea54beb8586f7aae60fb = $(`<div id="html_1d9bff4f9296ea54beb8586f7aae60fb" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> GeelongPort, Fortesque Future Industries<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Final investment decision expected at the end of 2024<br><b>Reference:</b> <a href='https://geelongport.com.au/news/geelongport-and-fortescue-future-industries-explore-hydrogen/' target='_blank'>Link</a></div></div>`)[0];
+                popup_4447661aeca1618848329f905591d085.setContent(html_1d9bff4f9296ea54beb8586f7aae60fb);
+            
+        
+
+        circle_marker_d6410ee9339c37570593a0a00643a173.bindPopup(popup_4447661aeca1618848329f905591d085)
+        ;
+
+        
+    
+    
+            var circle_marker_f632f6e312fce64aea31d6ddaa90a24f = L.circleMarker(
+                [-38.066, 144.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_f10635e3ce691d7776a1fe94ba3be29c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_39f6610751e92d37a472d242dbba8341 = $(`<div id="html_39f6610751e92d37a472d242dbba8341" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Viva Energy Australia<br><b>Electrolyser Size:</b> 2.5 MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.vivaenergy.com.au/energy-hub/new-energies-service-station-project' target='_blank'>Link</a></div></div>`)[0];
+                popup_f10635e3ce691d7776a1fe94ba3be29c.setContent(html_39f6610751e92d37a472d242dbba8341);
+            
+        
+
+        circle_marker_f632f6e312fce64aea31d6ddaa90a24f.bindPopup(popup_f10635e3ce691d7776a1fe94ba3be29c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc9b8bd90868816bce868104cab4a29b = L.circleMarker(
+                [-38.251514734, 146.581255605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_8bcb89065fecfea9b2a9f184eacd547d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_aff4c5a5d2e2f4eb677306ef42db7d3e = $(`<div id="html_aff4c5a5d2e2f4eb677306ef42db7d3e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Kawasaki Heavy Industries (KHI), Electric Power Development Co. (J-POWER), Iwatani Corporation, Marubeni Corporation, Sumitomo Corporation, AGL<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Completed<br><b>Reference:</b> <a href='https://hydrogenenergysupplychain.com/about-hesc/' target='_blank'>Link</a></div></div>`)[0];
+                popup_8bcb89065fecfea9b2a9f184eacd547d.setContent(html_aff4c5a5d2e2f4eb677306ef42db7d3e);
+            
+        
+
+        circle_marker_dc9b8bd90868816bce868104cab4a29b.bindPopup(popup_8bcb89065fecfea9b2a9f184eacd547d)
+        ;
+
+        
+    
+    
+            var circle_marker_c03dbf7caf7ac7b44d746e2994e06300 = L.circleMarker(
+                [-37.816277, 144.71822],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_e9e6ccb8b728ffc221f97338b57a835f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5e7beb8dcdad8dba3bd6d9d567474f4b = $(`<div id="html_5e7beb8dcdad8dba3bd6d9d567474f4b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Hydrogen Fuels Australia<br><b>Electrolyser Size:</b> 0.432 MW<br><b>Expected Start Date:</b> 2024<br><b>Reference:</b> <a href='https://www.hydrogenfuelsaustralia.com.au/about-us' target='_blank'>Link</a></div></div>`)[0];
+                popup_e9e6ccb8b728ffc221f97338b57a835f.setContent(html_5e7beb8dcdad8dba3bd6d9d567474f4b);
+            
+        
+
+        circle_marker_c03dbf7caf7ac7b44d746e2994e06300.bindPopup(popup_e9e6ccb8b728ffc221f97338b57a835f)
+        ;
+
+        
+    
+    
+            var circle_marker_62ad0a2d788848e5b0d899b48a612db4 = L.circleMarker(
+                [-36.13379, 146.902297],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_c61f6e0f45f12cfb1b5c2a7e0ba4ea47 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a9c5227adeb073ba49d271769d0762b2 = $(`<div id="html_a9c5227adeb073ba49d271769d0762b2" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Australian Gas Networks Limited<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://arena.gov.au/blog/green-light-for-pioneering-regional-hydrogen-project/' target='_blank'>Link</a></div></div>`)[0];
+                popup_c61f6e0f45f12cfb1b5c2a7e0ba4ea47.setContent(html_a9c5227adeb073ba49d271769d0762b2);
+            
+        
+
+        circle_marker_62ad0a2d788848e5b0d899b48a612db4.bindPopup(popup_c61f6e0f45f12cfb1b5c2a7e0ba4ea47)
+        ;
+
+        
+    
+    
+            var circle_marker_af01120c2afeec62c77a0b5c5c8f5c85 = L.circleMarker(
+                [-38.361674, 141.603662],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_1643ffba5552f24e94003de95da8f9e5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ab8ba9e87e915758171df359a3ebc59a = $(`<div id="html_ab8ba9e87e915758171df359a3ebc59a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Countrywide Renewable Hydrogen, Glenelg Shire Council, Port of Portland<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> Planning approval stage in 2020/21<br><b>Reference:</b> <a href='https://countrywidehydrogen.com/' target='_blank'>Link</a></div></div>`)[0];
+                popup_1643ffba5552f24e94003de95da8f9e5.setContent(html_ab8ba9e87e915758171df359a3ebc59a);
+            
+        
+
+        circle_marker_af01120c2afeec62c77a0b5c5c8f5c85.bindPopup(popup_1643ffba5552f24e94003de95da8f9e5)
+        ;
+
+        
+    
+    
+            var circle_marker_47db912afa12f1d8a8cdeea321cf9137 = L.circleMarker(
+                [-38.251514734, 146.581255605],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_d143aafb1131207bb14d5c879b147ca8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a8c20e081a8e0067aa30e62503ccb382 = $(`<div id="html_a8c20e081a8e0067aa30e62503ccb382" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Electric Power Development Co. (J-Power), Sumitomo Corporation, Kawasaki Heavy Industries (KHI), Iwatani Corporation<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.hydrogenenergysupplychain.com/japans-green-innovation-fund-selects-j-power-sumitomo-corporation-joint-venture-as-preferred-hydrogen-producer/' target='_blank'>Link</a></div></div>`)[0];
+                popup_d143aafb1131207bb14d5c879b147ca8.setContent(html_a8c20e081a8e0067aa30e62503ccb382);
+            
+        
+
+        circle_marker_47db912afa12f1d8a8cdeea321cf9137.bindPopup(popup_d143aafb1131207bb14d5c879b147ca8)
+        ;
+
+        
+    
+    
+            var circle_marker_8b1bb34063ff399a7563b7370904ab51 = L.circleMarker(
+                [-38.0087678650669, 145.207278816869],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a7ac8103fa0cb88dccdc4a6e23f3758b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_971c1d8d676dee1a050595e54e0c0b70 = $(`<div id="html_971c1d8d676dee1a050595e54e0c0b70" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Volgren Australia Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2024<br><b>Reference:</b> <a href='https://www.energy.vic.gov.au/grants/commercialisation-pathways-fund?msclkid=cb824993b21611ecb3d17a72662e6c93' target='_blank'>Link</a></div></div>`)[0];
+                popup_a7ac8103fa0cb88dccdc4a6e23f3758b.setContent(html_971c1d8d676dee1a050595e54e0c0b70);
+            
+        
+
+        circle_marker_8b1bb34063ff399a7563b7370904ab51.bindPopup(popup_a7ac8103fa0cb88dccdc4a6e23f3758b)
+        ;
+
+        
+    
+    
+            var circle_marker_da33fadef94e3c06c3ad7d1b61e0bbdb = L.circleMarker(
+                [-37.646669, 144.983335],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_2a16c9e08fdddf35e5715c54fecd3d1b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d4fa8fcc452945c168c7d43c75c7b67e = $(`<div id="html_d4fa8fcc452945c168c7d43c75c7b67e" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Countrywide Renewable Hydrogen, Melbourne Market Authority<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://crh2.com.au/' target='_blank'>Link</a></div></div>`)[0];
+                popup_2a16c9e08fdddf35e5715c54fecd3d1b.setContent(html_d4fa8fcc452945c168c7d43c75c7b67e);
+            
+        
+
+        circle_marker_da33fadef94e3c06c3ad7d1b61e0bbdb.bindPopup(popup_2a16c9e08fdddf35e5715c54fecd3d1b)
+        ;
+
+        
+    
+    
+            var circle_marker_c7722878c2e2c143f9aba52550077ca2 = L.circleMarker(
+                [-38.33, 141.6],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_09f6b273b7504c378311deaf0faecf89 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fb598a9a3de6085a9476cd7e32c3b775 = $(`<div id="html_fb598a9a3de6085a9476cd7e32c3b775" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> HAMR Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.hamrenergy.com/projects' target='_blank'>Link</a></div></div>`)[0];
+                popup_09f6b273b7504c378311deaf0faecf89.setContent(html_fb598a9a3de6085a9476cd7e32c3b775);
+            
+        
+
+        circle_marker_c7722878c2e2c143f9aba52550077ca2.bindPopup(popup_09f6b273b7504c378311deaf0faecf89)
+        ;
+
+        
+    
+    
+            var circle_marker_42200c95c3a24cbb987e220021c18647 = L.circleMarker(
+                [-37.604786, 144.991287],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3dc14ebba21d70ce78cc17c142501492 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a161e98c24c728ea92b31788fc228224 = $(`<div id="html_a161e98c24c728ea92b31788fc228224" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Yarra Valley Water<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.energy.vic.gov.au/grants/energy-innovation-fund' target='_blank'>Link</a></div></div>`)[0];
+                popup_3dc14ebba21d70ce78cc17c142501492.setContent(html_a161e98c24c728ea92b31788fc228224);
+            
+        
+
+        circle_marker_42200c95c3a24cbb987e220021c18647.bindPopup(popup_3dc14ebba21d70ce78cc17c142501492)
+        ;
+
+        
+    
+    
+            var circle_marker_7a81e5e3f088e5cfb6c59947089e49f7 = L.circleMarker(
+                [-37.906333, 145.131945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_62b20a8c1210192316d42bb2044cff34 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bde4e47fb50cb6f014a9c7a07ce92e91 = $(`<div id="html_bde4e47fb50cb6f014a9c7a07ce92e91" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Commonwealth Scientific and Industrial Research Organisation (CSIRO), Swinburne University of Technology<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.premier.vic.gov.au/hydrogen-hub-cements-victoria-clean-energy-leader' target='_blank'>Link</a></div></div>`)[0];
+                popup_62b20a8c1210192316d42bb2044cff34.setContent(html_bde4e47fb50cb6f014a9c7a07ce92e91);
+            
+        
+
+        circle_marker_7a81e5e3f088e5cfb6c59947089e49f7.bindPopup(popup_62b20a8c1210192316d42bb2044cff34)
+        ;
+
+        
+    
+    
+            var circle_marker_839e9d10a977bd7f3efd232673e6400b = L.circleMarker(
+                [-37.835943, 144.829007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_24e012e5afacd7be3e5b2c954c7984a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9514c6b7a82c4770f6d5a5841c995469 = $(`<div id="html_9514c6b7a82c4770f6d5a5841c995469" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Toyota Motor Corporation Australia Ltd<br><b>Electrolyser Size:</b> 0.26 MW<br><b>Expected Start Date:</b> 2021-11-01 00:00:00<br><b>Reference:</b> <a href='https://arena.gov.au/projects/toyota-ecopark-hydrogen-demonstration/' target='_blank'>Link</a></div></div>`)[0];
+                popup_24e012e5afacd7be3e5b2c954c7984a6.setContent(html_9514c6b7a82c4770f6d5a5841c995469);
+            
+        
+
+        circle_marker_839e9d10a977bd7f3efd232673e6400b.bindPopup(popup_24e012e5afacd7be3e5b2c954c7984a6)
+        ;
+
+        
+    
+    
+            var circle_marker_304777c995b582b97eab170164790b1c = L.circleMarker(
+                [-38.387104, 142.541994],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_18ea803cf09960442fb95da863d3b3a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0bd367275675d6cbf07c5a0b99f2cb3b = $(`<div id="html_0bd367275675d6cbf07c5a0b99f2cb3b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Warrnambool Bus Lines<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.premier.vic.gov.au/delivering-nation-first-hydrogen-research-facility' target='_blank'>Link</a></div></div>`)[0];
+                popup_18ea803cf09960442fb95da863d3b3a6.setContent(html_0bd367275675d6cbf07c5a0b99f2cb3b);
+            
+        
+
+        circle_marker_304777c995b582b97eab170164790b1c.bindPopup(popup_18ea803cf09960442fb95da863d3b3a6)
+        ;
+
+        
+    
+    
+            var circle_marker_8a989f61903446a926aa1710d1fa0358 = L.circleMarker(
+                [-29.249187, 114.931326],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_6d7610ab0d74d6caed956e6d74c6b815 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fcb1eb4fd053946d042e44cddfa95e95 = $(`<div id="html_fcb1eb4fd053946d042e44cddfa95e95" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Infinite Green Energy<br><b>Electrolyser Size:</b> 100 MW<br><b>Expected Start Date:</b> 2025<br><b>Reference:</b> <a href='https://igeh2.com/projects/arrowsmith-hydrogen-plant-stage-1/' target='_blank'>Link</a></div></div>`)[0];
+                popup_6d7610ab0d74d6caed956e6d74c6b815.setContent(html_fcb1eb4fd053946d042e44cddfa95e95);
+            
+        
+
+        circle_marker_8a989f61903446a926aa1710d1fa0358.bindPopup(popup_6d7610ab0d74d6caed956e6d74c6b815)
+        ;
+
+        
+    
+    
+            var circle_marker_5848eccec70cf4cfe7dd01d2dfd83cb6 = L.circleMarker(
+                [-32.114, 115.859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_552ac1f0e01fe6a5c16b27a38e6da192 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_052e2091e8828d8edb28732f32c0dcc5 = $(`<div id="html_052e2091e8828d8edb28732f32c0dcc5" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ATCO Australia Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> Operating - successful commissioning was announced in December 2022<br><b>Reference:</b> <a href='https://www.atco.com/en-au/about-us/stories/atco-achieves-double-hydrogen-milestone.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_552ac1f0e01fe6a5c16b27a38e6da192.setContent(html_052e2091e8828d8edb28732f32c0dcc5);
+            
+        
+
+        circle_marker_5848eccec70cf4cfe7dd01d2dfd83cb6.bindPopup(popup_552ac1f0e01fe6a5c16b27a38e6da192)
+        ;
+
+        
+    
+    
+            var circle_marker_dc690c88541ee2de17953a19396b2306 = L.circleMarker(
+                [-20.317253, 121.042081],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ebbe88654900eb82a8393340c701f6f5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_162336c17bc346d2b4f3ffeeb26c34c7 = $(`<div id="html_162336c17bc346d2b4f3ffeeb26c34c7" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> NW Interconnected Power Pty Ltd: company shareholders include bp (Operator), Intercontinental Energy, CWP Global, and Macquarie Capital and Macquarie’s Green Investment Group<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2027/28<br><b>Reference:</b> <a href='https://www.bp.com/en_au/australia/home/who-we-are/reimagining-energy/decarbonizing-australias-energy-system/renewable-energy-hub-in-australia.html#about-this-project' target='_blank'>Link</a></div></div>`)[0];
+                popup_ebbe88654900eb82a8393340c701f6f5.setContent(html_162336c17bc346d2b4f3ffeeb26c34c7);
+            
+        
+
+        circle_marker_dc690c88541ee2de17953a19396b2306.bindPopup(popup_ebbe88654900eb82a8393340c701f6f5)
+        ;
+
+        
+    
+    
+            var circle_marker_af6942d054e153a5575672b72228cac5 = L.circleMarker(
+                [-22.402009, 119.728194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_15b73992fe88a7fd2470cd6e357173a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ee8fec9864e65b5813806b11a2d695aa = $(`<div id="html_ee8fec9864e65b5813806b11a2d695aa" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Fortescue Metals Group,  HYZON Motors, Alinta Energy, BOC, ITM<br><b>Electrolyser Size:</b> 1.4 MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://www.fmgl.com.au/in-the-news/media-releases/2021/12/15/fortescue%E2%80%99s-chichester-hub-daytime-operations-powered-by-renewable-solar-energy' target='_blank'>Link</a></div></div>`)[0];
+                popup_15b73992fe88a7fd2470cd6e357173a6.setContent(html_ee8fec9864e65b5813806b11a2d695aa);
+            
+        
+
+        circle_marker_af6942d054e153a5575672b72228cac5.bindPopup(popup_15b73992fe88a7fd2470cd6e357173a6)
+        ;
+
+        
+    
+    
+            var circle_marker_76f2290b58136dd2313450cea5883bac = L.circleMarker(
+                [-32.113886, 115.858845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_add5422bdbc4d0b4307995b27ddedbe3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6d84a1b3851d75bc08bb7672f156781c = $(`<div id="html_6d84a1b3851d75bc08bb7672f156781c" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ATCO Gas Australia Pty Ltd<br><b>Electrolyser Size:</b> 0.26 MW<br><b>Expected Start Date:</b> Operating<br><b>Reference:</b> <a href='https://www.atco.com/en-au/projects/hydrogen.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_add5422bdbc4d0b4307995b27ddedbe3.setContent(html_6d84a1b3851d75bc08bb7672f156781c);
+            
+        
+
+        circle_marker_76f2290b58136dd2313450cea5883bac.bindPopup(popup_add5422bdbc4d0b4307995b27ddedbe3)
+        ;
+
+        
+    
+    
+            var circle_marker_1f5ed5395825545e5f9567109e59ec09 = L.circleMarker(
+                [-33.36206, 116.15617],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_b3cc8b87316f56aa38b407f360798740 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_27ee63d43bc186d868f7fa099b2d008b = $(`<div id="html_27ee63d43bc186d868f7fa099b2d008b" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Sunshot Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.mediastatements.wa.gov.au/Pages/McGowan/2022/04/Planning-for-big-battery-and-renewable-energy-hub-for-Collie.aspx' target='_blank'>Link</a></div></div>`)[0];
+                popup_b3cc8b87316f56aa38b407f360798740.setContent(html_27ee63d43bc186d868f7fa099b2d008b);
+            
+        
+
+        circle_marker_1f5ed5395825545e5f9567109e59ec09.bindPopup(popup_b3cc8b87316f56aa38b407f360798740)
+        ;
+
+        
+    
+    
+            var circle_marker_49912cea6b617d1a7838956b8fd9ffd7 = L.circleMarker(
+                [-25.927566, 113.541262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_9a686e4ad3742a10724ab9bfd78ed430 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_220b65f9540405d5213e15e535a23182 = $(`<div id="html_220b65f9540405d5213e15e535a23182" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Horizon Power<br><b>Electrolyser Size:</b> 0.348 MW<br><b>Expected Start Date:</b> Operation is anticipated in mid 2023<br><b>Reference:</b> <a href='https://arena.gov.au/assets/2023/04/horizon-power-denham-hydrogen-demonstration-lessons-learnt-1-2.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_9a686e4ad3742a10724ab9bfd78ed430.setContent(html_220b65f9540405d5213e15e535a23182);
+            
+        
+
+        circle_marker_49912cea6b617d1a7838956b8fd9ffd7.bindPopup(popup_9a686e4ad3742a10724ab9bfd78ed430)
+        ;
+
+        
+    
+    
+            var circle_marker_61ad368e1a02cec1798da50ca3288d96 = L.circleMarker(
+                [-31.653519, 116.672693],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_40368139d68e0711c3623518ec17dfb0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b72201a26dba23d1e822229426d39765 = $(`<div id="html_b72201a26dba23d1e822229426d39765" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Infinite Green Energy<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> 2024<br><b>Reference:</b> <a href='https://thewest.com.au/business/infinite-green-energy-partners-with-refuel-australia-to-progress-renewable-hydrogen-project-c-7825388' target='_blank'>Link</a></div></div>`)[0];
+                popup_40368139d68e0711c3623518ec17dfb0.setContent(html_b72201a26dba23d1e822229426d39765);
+            
+        
+
+        circle_marker_61ad368e1a02cec1798da50ca3288d96.bindPopup(popup_40368139d68e0711c3623518ec17dfb0)
+        ;
+
+        
+    
+    
+            var circle_marker_9daafab03f7b9b175acec95cabb5fed2 = L.circleMarker(
+                [-28.778771, 114.613627],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_03ed47cb1ec7cbddaf4d7d252e7c91c8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7d8148389a6f7397357852edfeeba8de = $(`<div id="html_7d8148389a6f7397357852edfeeba8de" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> bp Australia Pty Ltd, GHD Advisory Group Ltd<br><b>Electrolyser Size:</b> 35.4 MW<br><b>Expected Start Date:</b> Feasibility study completed  <br><b>Reference:</b> <a href='https://arena.gov.au/assets/2021/08/bp-ghd-renewable-hydrogen-and-ammonia-feasibility-study.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_03ed47cb1ec7cbddaf4d7d252e7c91c8.setContent(html_7d8148389a6f7397357852edfeeba8de);
+            
+        
+
+        circle_marker_9daafab03f7b9b175acec95cabb5fed2.bindPopup(popup_03ed47cb1ec7cbddaf4d7d252e7c91c8)
+        ;
+
+        
+    
+    
+            var circle_marker_9a06bd54297b9dbe6187c9b8b3683e8a = L.circleMarker(
+                [-32.163963, 115.792911],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_62f2ef480b95010a0931a2377b8e64d7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8fb7d9bb01717c53d519115337a8e38f = $(`<div id="html_8fb7d9bb01717c53d519115337a8e38f" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> City of Cockburn<br><b>Electrolyser Size:</b> 1.25 (stage 1) MW<br><b>Expected Start Date:</b> Study completed<br><b>Reference:</b> <a href='https://www.wa.gov.au/system/files/2022-04/City%20of%20Cockburn%20-%20Green%20Hydrogen%20-%20Final%20Knowledge%20Sharing%20Report.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_62f2ef480b95010a0931a2377b8e64d7.setContent(html_8fb7d9bb01717c53d519115337a8e38f);
+            
+        
+
+        circle_marker_9a06bd54297b9dbe6187c9b8b3683e8a.bindPopup(popup_62f2ef480b95010a0931a2377b8e64d7)
+        ;
+
+        
+    
+    
+            var circle_marker_67ab32730b7228281305e53b63341f65 = L.circleMarker(
+                [-32.22658, 115.7639],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3aade6492b64c033e235723bcaaa86a3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9e3494b0f6949e22eeefbfc660e896ef = $(`<div id="html_9e3494b0f6949e22eeefbfc660e896ef" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> bp Australia, Macquarie Capital<br><b>Electrolyser Size:</b> 75 MW<br><b>Expected Start Date:</b> Feasibility study completion anticipated in Q2 2022<br><b>Reference:</b> <a href='https://www.bp.com/content/dam/bp/country-sites/en_au/australia/home/media/media-releases/bp-welcomes-federal-funding-for-green-hydrogen-hub-at-Kwinana-Western-Australia.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_3aade6492b64c033e235723bcaaa86a3.setContent(html_9e3494b0f6949e22eeefbfc660e896ef);
+            
+        
+
+        circle_marker_67ab32730b7228281305e53b63341f65.bindPopup(popup_3aade6492b64c033e235723bcaaa86a3)
+        ;
+
+        
+    
+    
+            var circle_marker_d73d023c766699319e21fa22590a1809 = L.circleMarker(
+                [-32.243999, 115.814003],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_51dbba2efe1bba1b040967fdb094302b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_55f3eb23e95ff0ce661c24f83cf998aa = $(`<div id="html_55f3eb23e95ff0ce661c24f83cf998aa" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Woodside Energy Ltd<br><b>Electrolyser Size:</b> 250 MW<br><b>Expected Start Date:</b> Construction in 2024, subject to the Final Investment Decision (FID)<br><b>Reference:</b> <a href='https://www.woodside.com/docs/default-source/media-releases/woodside-and-keppel-data-centres-sign-hoa-for-liquid-hydrogen-supply.pdf?sfvrsn=525b1cf9_6' target='_blank'>Link</a></div></div>`)[0];
+                popup_51dbba2efe1bba1b040967fdb094302b.setContent(html_55f3eb23e95ff0ce661c24f83cf998aa);
+            
+        
+
+        circle_marker_d73d023c766699319e21fa22590a1809.bindPopup(popup_51dbba2efe1bba1b040967fdb094302b)
+        ;
+
+        
+    
+    
+            var circle_marker_860f6f96cf0661892353bc61cf4f0f3f = L.circleMarker(
+                [-32.147723, 115.77295],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_ee3cc10bff09c53faeb3c234b3b6b94b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7354e145575ae2146bb1c3d5ba8ac8a3 = $(`<div id="html_7354e145575ae2146bb1c3d5ba8ac8a3" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Hazer Group Limited<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> 2023<br><b>Reference:</b> <a href='https://hazergroup.com.au/wp-content/uploads/2023/03/230308-Hazer-Ops-Update-Final-ASX.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_ee3cc10bff09c53faeb3c234b3b6b94b.setContent(html_7354e145575ae2146bb1c3d5ba8ac8a3);
+            
+        
+
+        circle_marker_860f6f96cf0661892353bc61cf4f0f3f.bindPopup(popup_ee3cc10bff09c53faeb3c234b3b6b94b)
+        ;
+
+        
+    
+    
+            var circle_marker_144488a607a1954c2c6c8b57d0365411 = L.circleMarker(
+                [-22.51054, 119.441308],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_4a38cf13a61617532700cfa036b607de = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d703359aa47d0bc42e255deb183569bf = $(`<div id="html_d703359aa47d0bc42e255deb183569bf" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Murdoch University<br><b>Electrolyser Size:</b> 0.25 MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.mediastatements.wa.gov.au/Pages/McGowan/2020/01/Funding-for-studies-to-kick-start-hydrogen-industry.aspx' target='_blank'>Link</a></div></div>`)[0];
+                popup_4a38cf13a61617532700cfa036b607de.setContent(html_d703359aa47d0bc42e255deb183569bf);
+            
+        
+
+        circle_marker_144488a607a1954c2c6c8b57d0365411.bindPopup(popup_4a38cf13a61617532700cfa036b607de)
+        ;
+
+        
+    
+    
+            var circle_marker_f1af72249df1e9b58d7746d542669a1e = L.circleMarker(
+                [-32.11486, 115.858373],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_e517f809ef4f383ffa27a2b42479cbf0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2ae72dbe83282ab7b098539bda8cd9a1 = $(`<div id="html_2ae72dbe83282ab7b098539bda8cd9a1" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> ATCO Gas Australia Pty Ltd, Fortescue Metals Group/Fortesque Future Industries<br><b>Electrolyser Size:</b> 0.26 MW<br><b>Expected Start Date:</b> Successful commissioning was announced in December 2022<br><b>Reference:</b> <a href='https://www.atco.com/en-au/about-us/stories/atco-achieves-double-hydrogen-milestone.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_e517f809ef4f383ffa27a2b42479cbf0.setContent(html_2ae72dbe83282ab7b098539bda8cd9a1);
+            
+        
+
+        circle_marker_f1af72249df1e9b58d7746d542669a1e.bindPopup(popup_e517f809ef4f383ffa27a2b42479cbf0)
+        ;
+
+        
+    
+    
+            var circle_marker_2473312704ef87e90425d81ea9be38c6 = L.circleMarker(
+                [-24.740207, 113.627528],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_68eca210f10ac6b07e63b1dc7684ea79 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_67b17c301091f041f29587066ca4efdc = $(`<div id="html_67b17c301091f041f29587066ca4efdc" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b>  Province Resources Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='http://wcsecure.weblink.com.au/pdf/PRL/02648618.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_68eca210f10ac6b07e63b1dc7684ea79.setContent(html_67b17c301091f041f29587066ca4efdc);
+            
+        
+
+        circle_marker_2473312704ef87e90425d81ea9be38c6.bindPopup(popup_68eca210f10ac6b07e63b1dc7684ea79)
+        ;
+
+        
+    
+    
+            var circle_marker_27f561bbef505bbe33bf09940851dded = L.circleMarker(
+                [-29.29119, 115.109253],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_06c0767f5634a5809d10aaec262c2707 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0242f2ecd9887228d40fd92e51f83b5a = $(`<div id="html_0242f2ecd9887228d40fd92e51f83b5a" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Mitsui E&P Australia Pty Ltd<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.mitsui.com/jp/en/topics/2021/1242033_12171.html' target='_blank'>Link</a></div></div>`)[0];
+                popup_06c0767f5634a5809d10aaec262c2707.setContent(html_0242f2ecd9887228d40fd92e51f83b5a);
+            
+        
+
+        circle_marker_27f561bbef505bbe33bf09940851dded.bindPopup(popup_06c0767f5634a5809d10aaec262c2707)
+        ;
+
+        
+    
+    
+            var circle_marker_69bf3965896092af813ab0d09408eda4 = L.circleMarker(
+                [-29.4115222, 115.00766944444],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_a24f1110f3bf674850271f7f8eb0bb59 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2f52bbe60637881393de00188cce5cff = $(`<div id="html_2f52bbe60637881393de00188cce5cff" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Pilot Energy<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.pilotenergy.com.au/sites/pilotenergy.com.au/files/asx-announcements/61094935.pdf' target='_blank'>Link</a></div></div>`)[0];
+                popup_a24f1110f3bf674850271f7f8eb0bb59.setContent(html_2f52bbe60637881393de00188cce5cff);
+            
+        
+
+        circle_marker_69bf3965896092af813ab0d09408eda4.bindPopup(popup_a24f1110f3bf674850271f7f8eb0bb59)
+        ;
+
+        
+    
+    
+            var circle_marker_f61a8574d49e03a84649a7dea77fbb83 = L.circleMarker(
+                [-27.6481099, 114.2366613],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_3ed3cae70b978547da41df34397a9f1e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_acdda750f2e418fe1d4f3fd582ba546c = $(`<div id="html_acdda750f2e418fe1d4f3fd582ba546c" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Murchison Hydrogen Renewables Pty Ltd (parent company being Copenhagen Infrastructure Partners) as trustees for the Murchison Hydrogen Renewables Project Trust<br><b>Electrolyser Size:</b> 3000 MW<br><b>Expected Start Date:</b> Stakeholder engagement commenced late 2019<br><b>Reference:</b> <a href='https://www.epa.wa.gov.au/proposals/murchison-hydrogen-renewables-project' target='_blank'>Link</a></div></div>`)[0];
+                popup_3ed3cae70b978547da41df34397a9f1e.setContent(html_acdda750f2e418fe1d4f3fd582ba546c);
+            
+        
+
+        circle_marker_f61a8574d49e03a84649a7dea77fbb83.bindPopup(popup_3ed3cae70b978547da41df34397a9f1e)
+        ;
+
+        
+    
+    
+            var circle_marker_f7947c391183ba899587ca13d0b4a820 = L.circleMarker(
+                [-32.2443111, 115.7744906],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_8dd19453c4ae9a07899242407af376bd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_df099a56c8ad601d42002730c6bbf056 = $(`<div id="html_df099a56c8ad601d42002730c6bbf056" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> APA Group, Wesfarmers (Wesfarmers Chemicals, Energy and Fertilisers – WesCEF)<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> nan<br><b>Reference:</b> <a href='https://www.apa.com.au/news/media-statements/2022/australias-first-potential-conversion-of-a-gas-transmission-pipeline-to-pure-hydrogen-a-step-closer/' target='_blank'>Link</a></div></div>`)[0];
+                popup_8dd19453c4ae9a07899242407af376bd.setContent(html_df099a56c8ad601d42002730c6bbf056);
+            
+        
+
+        circle_marker_f7947c391183ba899587ca13d0b4a820.bindPopup(popup_8dd19453c4ae9a07899242407af376bd)
+        ;
+
+        
+    
+    
+            var circle_marker_6500ccceae1ebf94ab5d4b17c47fa6e0 = L.circleMarker(
+                [-29.47110278, 115.29479722],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_24941d98f28099d621e1e4c9f3058cbd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7c096f2751b808e084010de8200a494d = $(`<div id="html_7c096f2751b808e084010de8200a494d" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Strike Energy<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> FEED scope awarded in October 2022<br><b>Reference:</b> <a href='https://strikeenergy.com.au/project-haber/' target='_blank'>Link</a></div></div>`)[0];
+                popup_24941d98f28099d621e1e4c9f3058cbd.setContent(html_7c096f2751b808e084010de8200a494d);
+            
+        
+
+        circle_marker_6500ccceae1ebf94ab5d4b17c47fa6e0.bindPopup(popup_24941d98f28099d621e1e4c9f3058cbd)
+        ;
+
+        
+    
+    
+            var circle_marker_d9c277c46eed0016a850af98ee626e98 = L.circleMarker(
+                [-31.48454, 128.61972],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_87dec97e9d3cc5338be6dd51b414fe75 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a770a25ffdc903c1238a2c4f0621a7d2 = $(`<div id="html_a770a25ffdc903c1238a2c4f0621a7d2" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> InterContinental Energy, CWP Global, Mirning Traditional Lands Aboriginal Corporation<br><b>Electrolyser Size:</b> nan MW<br><b>Expected Start Date:</b> The first production is anticipated by 2030<br><b>Reference:</b> <a href='https://wgeh.com.au/' target='_blank'>Link</a></div></div>`)[0];
+                popup_87dec97e9d3cc5338be6dd51b414fe75.setContent(html_a770a25ffdc903c1238a2c4f0621a7d2);
+            
+        
+
+        circle_marker_d9c277c46eed0016a850af98ee626e98.bindPopup(popup_87dec97e9d3cc5338be6dd51b414fe75)
+        ;
+
+        
+    
+    
+            var circle_marker_6af566fdf05e10a52a08ca309dbb6b31 = L.circleMarker(
+                [-20.624733, 116.783359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b37349a29a1cccd337d77d781017b18c);
+        
+    
+        var popup_893da963ae17398d327006ebad8da82e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f0e6432633a4069394e254c41acc7da7 = $(`<div id="html_f0e6432633a4069394e254c41acc7da7" style="width: 100.0%; height: 100.0%;"><div style='width: 150px; white-space: normal;'><b>Proponents:</b> Yara Pilbara Fertilisers Pty Ltd, ENGIE Renewables Australia Pty Ltd<br><b>Electrolyser Size:</b> 10 MW<br><b>Expected Start Date:</b> Scheduled for completion in 2024<br><b>Reference:</b> <a href='https://arena.gov.au/projects/yuri-renewable-hydrogen-to-ammonia-project/' target='_blank'>Link</a></div></div>`)[0];
+                popup_893da963ae17398d327006ebad8da82e.setContent(html_f0e6432633a4069394e254c41acc7da7);
+            
+        
+
+        circle_marker_6af566fdf05e10a52a08ca309dbb6b31.bindPopup(popup_893da963ae17398d327006ebad8da82e)
+        ;
+
+        
+    
+</script>
+</html>
